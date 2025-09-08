@@ -1,0 +1,521 @@
+{
+  "users": [
+    {
+      "id": "03e1",
+      "name": "Dhanush",
+      "email": "dhanush@gmail.com",
+      "password": "9846388075",
+      "confirmPassword": "9846388075"
+    },
+    {
+      "id": "4416",
+      "name": "Adhil",
+      "email": "adhil@gmail.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "cart": []
+    },
+    {
+      "id": "ccd5",
+      "name": "Aiman",
+      "email": "aiman@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "cart": []
+    },
+    {
+      "id": "6b67",
+      "name": "Shibil",
+      "email": "shibil@gmail.com",
+      "password": "1234567890",
+      "confirmPassword": "1234567890",
+      "cart": [
+        {
+          "id": "2",
+          "name": "Bleu de Chanel",
+          "brand": "Chanel",
+          "category": "Eau de Parfum",
+          "price": 9200,
+          "gender": "Men",
+          "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+          "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg"
+        },
+        {
+          "id": "6",
+          "name": "YSL Black Opium",
+          "brand": "Yves Saint Laurent",
+          "category": "Eau de Parfum",
+          "price": 8700,
+          "gender": "Women",
+          "description": "Warm and sensual with coffee, vanilla, and white flowers.",
+          "image": "https://www.meagherspharmacy.ie/cdn/shop/files/yves-saint-laurent-black-opium-eau-de-parfum-fragrance-meaghers-pharmacy-30464830013553.jpg?v=1690494310&width=1214"
+        },
+        {
+          "id": "4",
+          "name": "Chanel No. 5",
+          "brand": "Chanel",
+          "category": "Eau de Parfum",
+          "price": 10500,
+          "gender": "Women",
+          "description": "Classic floral-aldehydic fragrance with jasmine and rose.",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/06-ic32-n5-100ans-carre-6-hd-1616167247.png"
+        },
+        {
+          "id": "3",
+          "name": "Armani Code",
+          "brand": "Giorgio Armani",
+          "category": "Eau de Toilette",
+          "price": 7800,
+          "gender": "Men",
+          "description": "Elegant scent with citrus, leather, and tonka bean.",
+          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697"
+        },
+        {
+          "id": "3",
+          "name": "Armani Code",
+          "brand": "Giorgio Armani",
+          "category": "Eau de Toilette",
+          "price": 7800,
+          "gender": "Men",
+          "description": "Elegant scent with citrus, leather, and tonka bean.",
+          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697"
+        },
+        {
+          "id": "1",
+          "name": "Dior Sauvage",
+          "brand": "Dior",
+          "category": "Eau de Toilette",
+          "price": 8500,
+          "gender": "Men",
+          "description": "Fresh, spicy fragrance with bergamot, pepper, and ambroxan.",
+          "image": "https://images.unsplash.com/photo-1700473170883-47612d466783?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlvciUyMHNhdXZhZ2V8ZW58MHx8MHx8fDA%3D"
+        }
+      ],
+      "wishlist": []
+    },
+    {
+      "id": "67d3",
+      "name": "Dhanush",
+      "email": "dhanush123@gmail.com",
+      "password": "9846388075",
+      "confirmPassword": "9846388075",
+      "cart": [
+        {
+          "id": "1",
+          "name": "Dior Sauvage",
+          "brand": "Dior",
+          "category": "Eau de Toilette",
+          "price": 8500,
+          "gender": "Men",
+          "description": "Fresh, spicy fragrance with bergamot, pepper, and ambroxan.",
+          "image": "https://images.unsplash.com/photo-1700473170883-47612d466783?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlvciUyMHNhdXZhZ2V8ZW58MHx8MHx8fDA%3D"
+        }
+      ],
+      "wishList": [],
+      "wishlist": [
+        {
+          "id": "1",
+          "name": "Dior Sauvage",
+          "brand": "Dior",
+          "category": "Eau de Toilette",
+          "price": 8500,
+          "gender": "Men",
+          "description": "Fresh, spicy fragrance with bergamot, pepper, and ambroxan.",
+          "image": "https://images.unsplash.com/photo-1700473170883-47612d466783?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlvciUyMHNhdXZhZ2V8ZW58MHx8MHx8fDA%3D"
+        },
+        {
+          "id": "2",
+          "name": "Bleu de Chanel",
+          "brand": "Chanel",
+          "category": "Eau de Parfum",
+          "price": 9200,
+          "gender": "Men",
+          "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+          "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg"
+        }
+      ]
+    }
+  ],
+  "perfumes": [
+    {
+      "id": "1",
+      "name": "Dior Sauvage",
+      "brand": "Dior",
+      "category": "Eau de Toilette",
+      "price": 8500,
+      "gender": "Men",
+      "description": "Fresh, spicy fragrance with bergamot, pepper, and ambroxan.",
+      "image": "https://images.unsplash.com/photo-1700473170883-47612d466783?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlvciUyMHNhdXZhZ2V8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "2",
+      "name": "Bleu de Chanel",
+      "brand": "Chanel",
+      "category": "Eau de Parfum",
+      "price": 9200,
+      "gender": "Men",
+      "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+      "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Armani Code",
+      "brand": "Giorgio Armani",
+      "category": "Eau de Toilette",
+      "price": 7800,
+      "gender": "Men",
+      "description": "Elegant scent with citrus, leather, and tonka bean.",
+      "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697"
+    },
+    {
+      "id": "4",
+      "name": "Chanel No. 5",
+      "brand": "Chanel",
+      "category": "Eau de Parfum",
+      "price": 10500,
+      "gender": "Women",
+      "description": "Classic floral-aldehydic fragrance with jasmine and rose.",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/06-ic32-n5-100ans-carre-6-hd-1616167247.png"
+    },
+    {
+      "id": "5",
+      "name": "Lancôme La Vie Est Belle",
+      "brand": "Lancôme",
+      "category": "Eau de Parfum",
+      "price": 8900,
+      "gender": "Women",
+      "description": "Sweet and elegant with iris, praline, and vanilla.",
+      "image": "https://www.lancome.in/dw/image/v2/BJSQ_PRD/on/demandware.static/-/Sites-lancome-in-ng-Library/default/dw3bec8100/images/pdp/00027-LAC/REDISCOVER_AN_ICONIC_SYMBOL_02_DESK_X1.jpg?sw=1080&sh=1080&sm=cut&sfrm=jpg&q=70"
+    },
+    {
+      "id": "6",
+      "name": "YSL Black Opium",
+      "brand": "Yves Saint Laurent",
+      "category": "Eau de Parfum",
+      "price": 8700,
+      "gender": "Women",
+      "description": "Warm and sensual with coffee, vanilla, and white flowers.",
+      "image": "https://www.meagherspharmacy.ie/cdn/shop/files/yves-saint-laurent-black-opium-eau-de-parfum-fragrance-meaghers-pharmacy-30464830013553.jpg?v=1690494310&width=1214"
+    },
+    {
+      "id": "7",
+      "name": "Gucci Bloom",
+      "brand": "Gucci",
+      "category": "Eau de Parfum",
+      "price": 8200,
+      "gender": "Women",
+      "description": "A rich white floral fragrance with jasmine and tuberose.",
+      "image": "https://media.landmarkshops.in/cdn-cgi/image/h=1125,w=1125,q=85,fit=cover/lifestyle/1000013360399-1000013360398_04-2100.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Tom Ford Oud Wood",
+      "brand": "Tom Ford",
+      "category": "Eau de Parfum",
+      "price": 15500,
+      "gender": "Unisex",
+      "description": "An exotic blend of oud, spices, and vanilla with smoky depth.",
+      "image": "https://sdcdn.io/tf/tf_sku_TAJK01_2000x2000_1.png?height=700px&width=700px"
+    },
+    {
+      "id": "9",
+      "name": "Armani Code Profumo",
+      "brand": "Giorgio Armani",
+      "category": "Eau de Parfum",
+      "price": 8900,
+      "gender": "Men",
+      "description": "Oriental spicy scent with tonka bean, leather, and amber.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.35489.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Jean Paul Gaultier Le Male",
+      "brand": "Jean Paul Gaultier",
+      "category": "Eau de Toilette",
+      "price": 7800,
+      "gender": "Men",
+      "description": "Fresh mint, lavender, and vanilla for a bold signature.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.21.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Versace Bright Crystal",
+      "brand": "Versace",
+      "category": "Eau de Toilette",
+      "price": 7200,
+      "gender": "Women",
+      "description": "Fresh floral-fruity fragrance with pomegranate and peony.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.112.jpg"
+    },
+    {
+      "id": "12",
+      "name": "YSL Libre",
+      "brand": "Yves Saint Laurent",
+      "category": "Eau de Parfum",
+      "price": 9700,
+      "gender": "Women",
+      "description": "Lavender essence with orange blossom and musk accord.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.56756.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Maison Francis Kurkdjian Baccarat Rouge 540",
+      "brand": "MFK",
+      "category": "Eau de Parfum",
+      "price": 24500,
+      "gender": "Unisex",
+      "description": "Woody, amber, and floral with saffron and jasmine.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.30900.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Hermès Terre d’Hermès",
+      "brand": "Hermès",
+      "category": "Eau de Toilette",
+      "price": 8800,
+      "gender": "Men",
+      "description": "Woody mineral fragrance with grapefruit, cedar, and vetiver.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.1004.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Dolce & Gabbana Light Blue",
+      "brand": "Dolce & Gabbana",
+      "category": "Eau de Toilette",
+      "price": 7600,
+      "gender": "Women",
+      "description": "Citrus, apple, cedar, and bamboo for a fresh Mediterranean vibe.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.6.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Prada L’Homme",
+      "brand": "Prada",
+      "category": "Eau de Toilette",
+      "price": 8900,
+      "gender": "Men",
+      "description": "Powdery iris and amber with neroli and patchouli.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.37522.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Lancome La Vie Est Belle",
+      "brand": "Lancome",
+      "category": "Eau de Parfum",
+      "price": 10200,
+      "gender": "Women",
+      "description": "Iris gourmand with praline, black currant, and vanilla.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.13435.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Jo Malone Wood Sage & Sea Salt",
+      "brand": "Jo Malone",
+      "category": "Cologne",
+      "price": 8800,
+      "gender": "Unisex",
+      "description": "Aromatic scent with ambrette seed, sea salt, and sage.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.25363.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Paco Rabanne 1 Million",
+      "brand": "Paco Rabanne",
+      "category": "Eau de Toilette",
+      "price": 8200,
+      "gender": "Men",
+      "description": "Spicy leather with blood mandarin, cinnamon, and amber.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.473.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Carolina Herrera Good Girl",
+      "brand": "Carolina Herrera",
+      "category": "Eau de Parfum",
+      "price": 9800,
+      "gender": "Women",
+      "description": "Sweet and sensual blend of jasmine, cocoa, and tonka bean.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.37667.jpg"
+    },
+    {
+      "id": "21",
+      "name": "Mugler Alien",
+      "brand": "Mugler",
+      "category": "Eau de Parfum",
+      "price": 9500,
+      "gender": "Women",
+      "description": "Mysterious amber woody scent with jasmine sambac and cashmeran.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.9.jpg"
+    },
+    {
+      "id": "22",
+      "name": "Byredo Gypsy Water",
+      "brand": "Byredo",
+      "category": "Eau de Parfum",
+      "price": 12500,
+      "gender": "Unisex",
+      "description": "Woody aromatic with bergamot, lemon, juniper, and pine needle.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.4009.jpg"
+    },
+    {
+      "id": "23",
+      "name": "Narciso Rodriguez For Her",
+      "brand": "Narciso Rodriguez",
+      "category": "Eau de Parfum",
+      "price": 9400,
+      "gender": "Women",
+      "description": "Musk, rose, and peach with patchouli and amber.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.1249.jpg"
+    },
+    {
+      "id": "24",
+      "name": "Amouage Interlude Man",
+      "brand": "Amouage",
+      "category": "Eau de Parfum",
+      "price": 24500,
+      "gender": "Men",
+      "description": "Opulent incense, amber, leather, and oregano notes.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.14421.jpg"
+    },
+    {
+      "id": "25",
+      "name": "Acqua di Gio Profumo",
+      "brand": "Giorgio Armani",
+      "category": "Eau de Parfum",
+      "price": 10800,
+      "gender": "Men",
+      "description": "Aquatic aromatic fragrance with incense and patchouli.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.29916.jpg"
+    },
+    {
+      "id": "26",
+      "name": "Valentino Donna Born in Roma",
+      "brand": "Valentino",
+      "category": "Eau de Parfum",
+      "price": 9900,
+      "gender": "Women",
+      "description": "Vanilla bourbon with jasmine and blackcurrant accord.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.55435.jpg"
+    },
+    {
+      "id": "27",
+      "name": "Initio Oud for Greatness",
+      "brand": "Initio Parfums",
+      "category": "Eau de Parfum",
+      "price": 28500,
+      "gender": "Unisex",
+      "description": "Intense oud, lavender, saffron, and patchouli.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.54013.jpg"
+    },
+    {
+      "id": "28",
+      "name": "Montblanc Explorer",
+      "brand": "Montblanc",
+      "category": "Eau de Parfum",
+      "price": 7500,
+      "gender": "Men",
+      "description": "Woody aromatic scent with bergamot, vetiver, and patchouli.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.52506.jpg"
+    },
+    {
+      "id": "29",
+      "name": "Chloe Nomade",
+      "brand": "Chloé",
+      "category": "Eau de Parfum",
+      "price": 9200,
+      "gender": "Women",
+      "description": "Modern chypre with oak moss, freesia, and mirabelle plum.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.45978.jpg"
+    },
+    {
+      "id": "30",
+      "name": "Zara Tobacco Collection Rich Warm Addictive",
+      "brand": "Zara",
+      "category": "Eau de Toilette",
+      "price": 3500,
+      "gender": "Men",
+      "description": "Sweet gourmand with tobacco, honey, and coconut.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.45910.jpg"
+    },
+    {
+      "id": "31",
+      "name": "Maison Margiela Replica Jazz Club",
+      "brand": "Maison Margiela",
+      "category": "Eau de Toilette",
+      "price": 11200,
+      "gender": "Men",
+      "description": "Tobacco, rum, and vanilla for a warm boozy vibe.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.22519.jpg"
+    },
+    {
+      "id": "32",
+      "name": "Killian Love, Don’t Be Shy",
+      "brand": "By Killian",
+      "category": "Eau de Parfum",
+      "price": 28500,
+      "gender": "Women",
+      "description": "Sweet caramelized sugar with marshmallow, vanilla, and orange blossom.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.5205.jpg"
+    },
+    {
+      "id": "33",
+      "name": "Burberry Her",
+      "brand": "Burberry",
+      "category": "Eau de Parfum",
+      "price": 8900,
+      "gender": "Women",
+      "description": "Fruity floral with strawberry, blackberry, and jasmine.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.48499.jpg"
+    },
+    {
+      "id": "34",
+      "name": "Roja Dove Elysium",
+      "brand": "Roja Parfums",
+      "category": "Parfum Cologne",
+      "price": 34500,
+      "gender": "Men",
+      "description": "Citrus aromatic fragrance with grapefruit, vetiver, and ambergris.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.45434.jpg"
+    },
+    {
+      "id": "35",
+      "name": "Clive Christian No. 1",
+      "brand": "Clive Christian",
+      "category": "Parfum",
+      "price": 55000,
+      "gender": "Unisex",
+      "description": "Rich floral oriental blend with sandalwood and vanilla.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.493.jpg"
+    },
+    {
+      "id": "36",
+      "name": "Bond No. 9 New York Nights",
+      "brand": "Bond No. 9",
+      "category": "Eau de Parfum",
+      "price": 26500,
+      "gender": "Unisex",
+      "description": "Sweet gourmand floral with caramel, jasmine, and coffee.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.45233.jpg"
+    },
+    {
+      "id": "37",
+      "name": "Creed Green Irish Tweed",
+      "brand": "Creed",
+      "category": "Eau de Parfum",
+      "price": 21500,
+      "gender": "Men",
+      "description": "Fresh green scent with lemon, violet leaf, and sandalwood.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.1588.jpg"
+    },
+    {
+      "id": "38",
+      "name": "Serge Lutens Chergui",
+      "brand": "Serge Lutens",
+      "category": "Eau de Parfum",
+      "price": 19500,
+      "gender": "Unisex",
+      "description": "Sweet spicy oriental with honey, tobacco, and amber.",
+      "image": "https://fimgs.net/mdimg/perfume/375x500.1211.jpg"
+    }
+  ]
+}
