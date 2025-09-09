@@ -1,8 +1,14 @@
 import React, { useContext } from "react";
 import { CartContext } from "../../context/CreateContext";
 import NavigationBar from '../common/nav-bar/NavigationBar';
+import { useNavigate } from "react-router-dom";
+
+
 function CartPage() {
-  const { cart, removeFromCart, clearCart } = useContext(CartContext);
+  const { cart, removeFromCart, clearCart,decreaseQty,increaseQty } = useContext(CartContext);
+
+
+  const navigate = useNavigate();
 
   return (
     
@@ -31,7 +37,23 @@ function CartPage() {
                   <h3 className="text-lg font-semibold">{item.name}</h3>
                   <p className="text-gray-500 text-sm">{item.description}</p>
                   <p className="text-pink-600 font-bold">₹{item.price}</p>
-                </div>
+                  <div className="flex items-center gap-3 mt-2">
+  <button
+    onClick={() => decreaseQty(item.id)}
+    className="px-2 py-1 bg-gray-200 rounded"
+  >
+    -
+  </button>
+  <span className="px-3">{item.qty || 1}</span>
+  <button
+    onClick={() => increaseQty(item.id)}
+    className="px-2 py-1 bg-gray-200 rounded"
+  >
+    +
+  </button>
+</div>
+
+          </div>
                 <button
                   onClick={() => removeFromCart(item.id)}
                   className="ml-4 px-3 py-1 bg-red-500 text-white rounded-lg hover:bg-red-600"
@@ -50,7 +72,9 @@ function CartPage() {
             >
               Clear Cart
             </button>
-            <button className="px-5 py-2 bg-pink-600 text-white rounded-lg hover:bg-pink-700">
+            <button 
+            onClick={()=>navigate('/checkout')}
+            className="px-5 py-2 bg-pink-600 text-white rounded-lg hover:bg-pink-700">
               Checkout
             </button>
           </div>

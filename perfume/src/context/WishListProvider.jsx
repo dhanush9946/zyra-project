@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { WishlistContext } from "./CreateContext";
 import axios from "axios";
+import toast from 'react-hot-toast'
 
 function WishListProvider({ children }) {
   const [wishlist, setWishlist] = useState([]);
@@ -36,7 +37,7 @@ function WishListProvider({ children }) {
         wishlist: updatedWishlist,
       });
     }
-    alert("Product added to wishlist");
+    toast.success("Product added to wishlist");
   };
 
   // remove from wishlist

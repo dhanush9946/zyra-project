@@ -86,7 +86,7 @@ function LoginPage() {
     </p>
 
     <p className="text-center mt-2">
-      <a href="/forgot-password" className="text-sm text-indigo-500 hover:underline">
+      <a href="/forgetPassword" className="text-sm text-indigo-500 hover:underline">
         Forgot Password?
       </a>
     </p>

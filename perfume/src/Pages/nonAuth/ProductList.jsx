@@ -1,5 +1,6 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { CartContext, ProductContext } from "../../context/CreateContext";
+import ShopByGender from "./ShopByGender";
 
 function ProductList() {
   const { addToCart } = useContext(CartContext);
@@ -16,14 +17,16 @@ function ProductList() {
     addToCart(product); // add to context
   };
 
-  // filtering products for search
-  const filteredProducts = products.filter(
-    (product) =>
-      product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      product.brand.toLowerCase().includes(searchTerm.toLowerCase())
-
-   
-  );
+    const [gender, setGender] = useState("All");
+  
+    // filter by gender + search
+    const filteredProducts = products.filter((p) => {
+      const matchesGender = gender === "All" || p.gender === gender;
+      const matchesSearch =
+        p.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        p.brand.toLowerCase().includes(searchTerm.toLowerCase());
+      return matchesGender && matchesSearch;
+    });
 
   
 
@@ -32,6 +35,8 @@ function ProductList() {
       <h2 className="text-3xl font-bold mb-8 text-center text-gray-800">
         Perfume Collection
       </h2>
+
+      <ShopByGender onSelect={setGender} />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {filteredProducts.length > 0 ? (

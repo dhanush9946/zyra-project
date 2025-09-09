@@ -1,54 +1,22 @@
 {
   "users": [
     {
-      "id": "03e1",
-      "name": "Dhanush",
-      "email": "dhanush@gmail.com",
-      "password": "9846388075",
-      "confirmPassword": "9846388075"
-    },
-    {
-      "id": "4416",
-      "name": "Adhil",
-      "email": "adhil@gmail.com",
-      "password": "123",
-      "confirmPassword": "123",
-      "cart": []
-    },
-    {
-      "id": "ccd5",
-      "name": "Aiman",
-      "email": "aiman@gmail.com",
-      "password": "123456",
-      "confirmPassword": "123456",
-      "cart": []
-    },
-    {
-      "id": "6b67",
-      "name": "Shibil",
-      "email": "shibil@gmail.com",
-      "password": "1234567890",
-      "confirmPassword": "1234567890",
+      "id": "b818",
+      "name": "aiman",
+      "email": "aiman123@gmail.com",
+      "password": "123456789",
+      "confirmPassword": "123456789",
       "cart": [
         {
-          "id": "2",
-          "name": "Bleu de Chanel",
-          "brand": "Chanel",
-          "category": "Eau de Parfum",
-          "price": 9200,
+          "id": "3",
+          "name": "Armani Code",
+          "brand": "Giorgio Armani",
+          "category": "Eau de Toilette",
+          "price": 7800,
           "gender": "Men",
-          "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
-          "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg"
-        },
-        {
-          "id": "6",
-          "name": "YSL Black Opium",
-          "brand": "Yves Saint Laurent",
-          "category": "Eau de Parfum",
-          "price": 8700,
-          "gender": "Women",
-          "description": "Warm and sensual with coffee, vanilla, and white flowers.",
-          "image": "https://www.meagherspharmacy.ie/cdn/shop/files/yves-saint-laurent-black-opium-eau-de-parfum-fragrance-meaghers-pharmacy-30464830013553.jpg?v=1690494310&width=1214"
+          "description": "Elegant scent with citrus, leather, and tonka bean.",
+          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697",
+          "qty": 2
         },
         {
           "id": "4",
@@ -58,70 +26,130 @@
           "price": 10500,
           "gender": "Women",
           "description": "Classic floral-aldehydic fragrance with jasmine and rose.",
-          "image": "https://hips.hearstapps.com/hmg-prod/images/06-ic32-n5-100ans-carre-6-hd-1616167247.png"
-        },
-        {
-          "id": "3",
-          "name": "Armani Code",
-          "brand": "Giorgio Armani",
-          "category": "Eau de Toilette",
-          "price": 7800,
-          "gender": "Men",
-          "description": "Elegant scent with citrus, leather, and tonka bean.",
-          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697"
-        },
-        {
-          "id": "3",
-          "name": "Armani Code",
-          "brand": "Giorgio Armani",
-          "category": "Eau de Toilette",
-          "price": 7800,
-          "gender": "Men",
-          "description": "Elegant scent with citrus, leather, and tonka bean.",
-          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697"
-        },
-        {
-          "id": "1",
-          "name": "Dior Sauvage",
-          "brand": "Dior",
-          "category": "Eau de Toilette",
-          "price": 8500,
-          "gender": "Men",
-          "description": "Fresh, spicy fragrance with bergamot, pepper, and ambroxan.",
-          "image": "https://images.unsplash.com/photo-1700473170883-47612d466783?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlvciUyMHNhdXZhZ2V8ZW58MHx8MHx8fDA%3D"
+          "image": "https://hips.hearstapps.com/hmg-prod/images/06-ic32-n5-100ans-carre-6-hd-1616167247.png",
+          "qty": 1
         }
       ],
-      "wishlist": []
+      "wishList": [],
+      "order": [
+        {
+          "id": 1757422348449,
+          "items": [
+            {
+              "id": "2",
+              "name": "Bleu de Chanel",
+              "brand": "Chanel",
+              "category": "Eau de Parfum",
+              "price": 9200,
+              "gender": "Men",
+              "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+              "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
+              "qty": 1
+            }
+          ],
+          "total": 9200,
+          "address": "kozhikode",
+          "phone": "9188355199",
+          "paymentMethod": "cod",
+          "status": "pending",
+          "date": "2025-09-09T12:52:28.449Z"
+        },
+        {
+          "id": 1757422501024,
+          "items": [
+            {
+              "id": "2",
+              "name": "Bleu de Chanel",
+              "brand": "Chanel",
+              "category": "Eau de Parfum",
+              "price": 9200,
+              "gender": "Men",
+              "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+              "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
+              "qty": 1
+            },
+            {
+              "id": "7",
+              "name": "Gucci Bloom",
+              "brand": "Gucci",
+              "category": "Eau de Parfum",
+              "price": 8200,
+              "gender": "Women",
+              "description": "A rich white floral fragrance with jasmine and tuberose.",
+              "image": "https://media.landmarkshops.in/cdn-cgi/image/h=1125,w=1125,q=85,fit=cover/lifestyle/1000013360399-1000013360398_04-2100.jpg",
+              "qty": 1
+            },
+            {
+              "id": "10",
+              "name": "Jean Paul Gaultier Le Male",
+              "brand": "Jean Paul Gaultier",
+              "category": "Eau de Toilette",
+              "price": 7800,
+              "gender": "Men",
+              "description": "Fresh mint, lavender, and vanilla for a bold signature.",
+              "image": "https://fimgs.net/mdimg/perfume/375x500.21.jpg",
+              "qty": 1
+            }
+          ],
+          "total": 25200,
+          "address": "kasaragod",
+          "phone": "9846388075",
+          "paymentMethod": "cod",
+          "status": "pending",
+          "date": "2025-09-09T12:55:01.024Z"
+        },
+        {
+          "id": 1757424130077,
+          "items": [
+            {
+              "id": "1",
+              "name": "Dior Sauvage",
+              "brand": "Dior",
+              "category": "Eau de Toilette",
+              "price": 8500,
+              "gender": "Men",
+              "description": "Fresh, spicy fragrance with bergamot, pepper, and ambroxan.",
+              "image": "https://images.unsplash.com/photo-1700473170883-47612d466783?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlvciUyMHNhdXZhZ2V8ZW58MHx8MHx8fDA%3D",
+              "qty": 3
+            },
+            {
+              "id": "2",
+              "name": "Bleu de Chanel",
+              "brand": "Chanel",
+              "category": "Eau de Parfum",
+              "price": 9200,
+              "gender": "Men",
+              "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+              "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
+              "qty": 1
+            }
+          ],
+          "total": 34700,
+          "address": "rtgygg",
+          "phone": "9188355199",
+          "paymentMethod": "upi",
+          "status": "pending",
+          "date": "2025-09-09T13:22:10.077Z"
+        }
+      ]
     },
     {
-      "id": "67d3",
+      "id": "d870",
       "name": "Dhanush",
       "email": "dhanush123@gmail.com",
       "password": "9846388075",
       "confirmPassword": "9846388075",
       "cart": [
         {
-          "id": "1",
-          "name": "Dior Sauvage",
-          "brand": "Dior",
-          "category": "Eau de Toilette",
-          "price": 8500,
-          "gender": "Men",
-          "description": "Fresh, spicy fragrance with bergamot, pepper, and ambroxan.",
-          "image": "https://images.unsplash.com/photo-1700473170883-47612d466783?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlvciUyMHNhdXZhZ2V8ZW58MHx8MHx8fDA%3D"
-        }
-      ],
-      "wishList": [],
-      "wishlist": [
-        {
-          "id": "1",
-          "name": "Dior Sauvage",
-          "brand": "Dior",
-          "category": "Eau de Toilette",
-          "price": 8500,
-          "gender": "Men",
-          "description": "Fresh, spicy fragrance with bergamot, pepper, and ambroxan.",
-          "image": "https://images.unsplash.com/photo-1700473170883-47612d466783?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlvciUyMHNhdXZhZ2V8ZW58MHx8MHx8fDA%3D"
+          "id": "6",
+          "name": "YSL Black Opium",
+          "brand": "Yves Saint Laurent",
+          "category": "Eau de Parfum",
+          "price": 8700,
+          "gender": "Women",
+          "description": "Warm and sensual with coffee, vanilla, and white flowers.",
+          "image": "https://www.meagherspharmacy.ie/cdn/shop/files/yves-saint-laurent-black-opium-eau-de-parfum-fragrance-meaghers-pharmacy-30464830013553.jpg?v=1690494310&width=1214",
+          "qty": 1
         },
         {
           "id": "2",
@@ -131,9 +159,79 @@
           "price": 9200,
           "gender": "Men",
           "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
-          "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg"
+          "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
+          "qty": 2
+        },
+        {
+          "id": "4",
+          "name": "Chanel No. 5",
+          "brand": "Chanel",
+          "category": "Eau de Parfum",
+          "price": 10500,
+          "gender": "Women",
+          "description": "Classic floral-aldehydic fragrance with jasmine and rose.",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/06-ic32-n5-100ans-carre-6-hd-1616167247.png",
+          "qty": 4
+        },
+        {
+          "id": "1",
+          "name": "Dior Sauvage",
+          "brand": "Dior",
+          "category": "Eau de Toilette",
+          "price": 8500,
+          "gender": "Men",
+          "description": "Fresh, spicy fragrance with bergamot, pepper, and ambroxan.",
+          "image": "https://images.unsplash.com/photo-1700473170883-47612d466783?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlvciUyMHNhdXZhZ2V8ZW58MHx8MHx8fDA%3D",
+          "qty": 1
+        }
+      ],
+      "wishList": [],
+      "order": [
+        {
+          "id": 1757429302496,
+          "items": [
+            {
+              "id": "2",
+              "name": "Bleu de Chanel",
+              "brand": "Chanel",
+              "category": "Eau de Parfum",
+              "price": 9200,
+              "gender": "Men",
+              "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+              "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
+              "qty": 1
+            }
+          ],
+          "total": 9200,
+          "address": "kochi",
+          "phone": "9188355199",
+          "paymentMethod": "upi",
+          "status": "pending",
+          "date": "2025-09-09T14:48:22.496Z"
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "3",
+          "name": "Armani Code",
+          "brand": "Giorgio Armani",
+          "category": "Eau de Toilette",
+          "price": 7800,
+          "gender": "Men",
+          "description": "Elegant scent with citrus, leather, and tonka bean.",
+          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697"
         }
       ]
+    },
+    {
+      "id": "8a1d",
+      "name": "athul",
+      "email": "athul123@gmail.com",
+      "password": "123456789",
+      "confirmPassword": "123456789",
+      "cart": [],
+      "wishList": [],
+      "order": []
     }
   ],
   "perfumes": [

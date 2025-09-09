@@ -7,6 +7,9 @@ import Products from './Pages/nonAuth/Products'
 import CartPage from './Pages/nonAuth/CartPage'
 import ProfilePage from './Pages/nonAuth/ProfilePage'
 import WishlistPage from './Pages/nonAuth/WishListPage'
+import ForgotPassword from './Pages/auth/ForgetPassword'
+import Checkout from './Pages/nonAuth/Checkout'
+import ProductDetails from './Pages/nonAuth/ProductDetails'
 
 function MainComponent() {
   return (
@@ -19,6 +22,9 @@ function MainComponent() {
         <Route path='/cart' element={<CartPage />}/>
         <Route path='/profile' element={<ProfilePage />}/>
         <Route path='/wishlist' element={<WishlistPage />}/>
+        <Route path='/forgetPassword' element={<ForgotPassword />} />
+        <Route path='/checkout' element={<Checkout />}/>
+        <Route path='/product/:id' element={<ProductDetails />} />
       </Routes>
     </Router>
   )
