@@ -5,10 +5,11 @@ import axios from "axios";
 import toast from 'react-hot-toast'
 
 export default function Checkout() {
-  const { cart, clearCart } = useContext(CartContext); // ✅ use clearCart instead of setCart
+  const { cart, clearCart } = useContext(CartContext);
   const navigate = useNavigate();
 
   const [form, setForm] = useState({
+    name: "",
     address: "",
     phone: "",
     paymentMethod: "cod",
@@ -28,7 +29,7 @@ export default function Checkout() {
       return;
     }
 
-    if (!form.address || !form.phone) {
+    if (!form.name || !form.address || !form.phone) {
       toast.error("Please fill all fields");
       return;
     }
@@ -37,6 +38,7 @@ export default function Checkout() {
       // prepare order
       const newOrder = {
         id: Date.now(),
+        name: form.name,
         items: cart,
         total: totalPrice,
         address: form.address,
@@ -51,7 +53,6 @@ export default function Checkout() {
         `http://localhost:3000/users/${storedUser.id}`
       );
 
-      // ✅ update user's "order" array (not orders)
       const updatedUser = {
         ...user,
         order: [...(user.order || []), newOrder],
@@ -81,6 +82,14 @@ export default function Checkout() {
       <div className="grid md:grid-cols-2 gap-8">
         {/* Left: Form */}
         <div className="space-y-4">
+          <input
+            type="text"
+            name="name"
+            placeholder="Full Name"
+            value={form.name}
+            onChange={handleChange}
+            className="w-full border px-4 py-2 rounded"
+          />
           <input
             type="text"
             name="phone"

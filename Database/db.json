@@ -141,17 +141,6 @@
       "confirmPassword": "9846388075",
       "cart": [
         {
-          "id": "6",
-          "name": "YSL Black Opium",
-          "brand": "Yves Saint Laurent",
-          "category": "Eau de Parfum",
-          "price": 8700,
-          "gender": "Women",
-          "description": "Warm and sensual with coffee, vanilla, and white flowers.",
-          "image": "https://www.meagherspharmacy.ie/cdn/shop/files/yves-saint-laurent-black-opium-eau-de-parfum-fragrance-meaghers-pharmacy-30464830013553.jpg?v=1690494310&width=1214",
-          "qty": 1
-        },
-        {
           "id": "2",
           "name": "Bleu de Chanel",
           "brand": "Chanel",
@@ -160,28 +149,6 @@
           "gender": "Men",
           "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
           "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
-          "qty": 2
-        },
-        {
-          "id": "4",
-          "name": "Chanel No. 5",
-          "brand": "Chanel",
-          "category": "Eau de Parfum",
-          "price": 10500,
-          "gender": "Women",
-          "description": "Classic floral-aldehydic fragrance with jasmine and rose.",
-          "image": "https://hips.hearstapps.com/hmg-prod/images/06-ic32-n5-100ans-carre-6-hd-1616167247.png",
-          "qty": 4
-        },
-        {
-          "id": "1",
-          "name": "Dior Sauvage",
-          "brand": "Dior",
-          "category": "Eau de Toilette",
-          "price": 8500,
-          "gender": "Men",
-          "description": "Fresh, spicy fragrance with bergamot, pepper, and ambroxan.",
-          "image": "https://images.unsplash.com/photo-1700473170883-47612d466783?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlvciUyMHNhdXZhZ2V8ZW58MHx8MHx8fDA%3D",
           "qty": 1
         }
       ],
@@ -208,6 +175,84 @@
           "paymentMethod": "upi",
           "status": "pending",
           "date": "2025-09-09T14:48:22.496Z"
+        },
+        {
+          "id": 1757502909379,
+          "name": "Dhanush V",
+          "items": [
+            {
+              "id": "6",
+              "name": "YSL Black Opium",
+              "brand": "Yves Saint Laurent",
+              "category": "Eau de Parfum",
+              "price": 8700,
+              "gender": "Women",
+              "description": "Warm and sensual with coffee, vanilla, and white flowers.",
+              "image": "https://www.meagherspharmacy.ie/cdn/shop/files/yves-saint-laurent-black-opium-eau-de-parfum-fragrance-meaghers-pharmacy-30464830013553.jpg?v=1690494310&width=1214",
+              "qty": 1
+            },
+            {
+              "id": "2",
+              "name": "Bleu de Chanel",
+              "brand": "Chanel",
+              "category": "Eau de Parfum",
+              "price": 9200,
+              "gender": "Men",
+              "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+              "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
+              "qty": 1
+            },
+            {
+              "id": "1",
+              "name": "Dior Sauvage",
+              "brand": "Dior",
+              "category": "Eau de Toilette",
+              "price": 8500,
+              "gender": "Men",
+              "description": "Fresh, spicy fragrance with bergamot, pepper, and ambroxan.",
+              "image": "https://images.unsplash.com/photo-1700473170883-47612d466783?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlvciUyMHNhdXZhZ2V8ZW58MHx8MHx8fDA%3D",
+              "qty": 1
+            },
+            {
+              "id": "7",
+              "name": "Gucci Bloom",
+              "brand": "Gucci",
+              "category": "Eau de Parfum",
+              "price": 8200,
+              "gender": "Women",
+              "description": "A rich white floral fragrance with jasmine and tuberose.",
+              "image": "https://media.landmarkshops.in/cdn-cgi/image/h=1125,w=1125,q=85,fit=cover/lifestyle/1000013360399-1000013360398_04-2100.jpg",
+              "qty": 2
+            },
+            {
+              "id": "3",
+              "name": "Armani Code",
+              "brand": "Giorgio Armani",
+              "category": "Eau de Toilette",
+              "price": 7800,
+              "gender": "Men",
+              "description": "Elegant scent with citrus, leather, and tonka bean.",
+              "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697",
+              "qty": 1
+            },
+            {
+              "id": "5",
+              "name": "Lancôme La Vie Est Belle",
+              "brand": "Lancôme",
+              "category": "Eau de Parfum",
+              "price": 8900,
+              "gender": "Women",
+              "description": "Sweet and elegant with iris, praline, and vanilla.",
+              "image": "https://www.lancome.in/dw/image/v2/BJSQ_PRD/on/demandware.static/-/Sites-lancome-in-ng-Library/default/dw3bec8100/images/pdp/00027-LAC/REDISCOVER_AN_ICONIC_SYMBOL_02_DESK_X1.jpg?sw=1080&sh=1080&sm=cut&sfrm=jpg&q=70",
+              "qty": 1
+            }
+          ],
+          "total": 59500,
+          "address": "Vattakkayam(H), Poothanganam, parakkalai(PO), 671531(Pin) Anandasramam (via), kasaragod\nModagramam temple",
+          "phone": "9846388075",
+          "paymentMethod": "cod",
+          "status": "pending",
+          "date": "2025-09-10T11:15:09.379Z"
         }
       ],
       "wishlist": [

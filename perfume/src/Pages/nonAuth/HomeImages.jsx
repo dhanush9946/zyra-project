@@ -29,7 +29,7 @@ export default function HeroSlider() {
   };
 
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="relative w-full overflow-hidden mt-20">
       {/* Images */}
       <div className="flex transition-transform ease-in-out duration-700"
         style={{ transform: `translateX(-${current * 100}%)` }}

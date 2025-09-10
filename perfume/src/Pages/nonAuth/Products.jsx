@@ -3,6 +3,7 @@ import { CartContext, ProductContext, WishlistContext } from "../../context/Crea
 import NavigationBar from "../common/nav-bar/NavigationBar";
 import { Heart } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import toast from 'react-hot-toast'
 
 function Products() {
   const { products, searchTerm } = useContext(ProductContext);
@@ -16,7 +17,7 @@ function Products() {
 
   // fake loading effect when page first opens
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 1200); // 1.2s delay
+    const timer = setTimeout(() => setLoading(false), 800); // 1.2s delay
     return () => clearTimeout(timer);
   }, []);
 
@@ -39,7 +40,7 @@ function Products() {
   const handleAddToCart = (product) => {
     const user = JSON.parse(localStorage.getItem("user"));
     if (!user) {
-      alert("Please login to add items to your cart!");
+      toast.error("Please login to add items to your cart!");
       return;
     }
     addToCart(product);
@@ -47,6 +48,13 @@ function Products() {
 
   // toggle wishlist
   const toggleWishlist = (product) => {
+
+    const user = JSON.parse(localStorage.getItem("user"));
+    if (!user) {
+      toast.error("Please login to add items to your wishlist!");
+      return;
+    }
+
     if (wishlist.find((item) => item.id === product.id)) {
       removeFromWishlist(product.id);
     } else {
@@ -54,24 +62,27 @@ function Products() {
     }
   };
 
+  
+
   return (
     <div className="max-w-7xl mx-auto px-6 py-10">
       <NavigationBar />
 
-      <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
+      <h1 className="text-3xl font-bold text-center mt-12 text-gray-800 mb-6">
         Perfume Collection
       </h1>
-
+         <h3 className="text-2xl font-bold text-center mt-12 text-gray-800 mb-6">Top Brands</h3>
       {/* 🔹 Brand Filter Buttons */}
       <div className="flex flex-wrap justify-center gap-4 mb-10">
+        
         {brands.map((brand) => (
           <button
             key={brand}
             onClick={() => setSelectedBrand(brand)}
             className={`px-5 py-2 rounded-full border transition ${
               selectedBrand === brand
-                ? "bg-pink-600 text-white border-pink-600"
-                : "bg-white text-gray-700 border-gray-300 hover:bg-pink-100"
+                ? "bg-black text-white border-black"
+          : "bg-white text-black border-black hover:bg-gray-800 hover:text-white"
             }`}
           >
             {brand}
@@ -140,24 +151,24 @@ function Products() {
                     <h3 className="text-lg font-semibold text-gray-900 mb-1 tracking-wide">
                       {product.name}
                     </h3>
-                    <p className="text-sm text-gray-500 mb-3 italic">
+                    <p className="text-sm text-gray-700 mb-3 italic">
                       {product.description || "A luxury fragrance for every mood."}
                     </p>
                     </div>
 
                     {/* Price + Button */}
-                    <div className="mt-auto flex items-center justify-between">
-                      <p className="text-xl font-bold text-pink-600">
-                        ₹{product.price}
-                      </p>
-                      <button
-                        onClick={() => handleAddToCart(product)}
-                        className="px-4 py-2 bg-pink-600 text-white rounded-full hover:bg-pink-700 transition"
-                      >
-                        Add to Cart
-                      </button>
-                    
-                  </div>
+                    <div className="flex items-center justify-between mt-4 mb-4 px-5">
+  <p className="text-xl font-bold text-black">
+    ₹{product.price}
+  </p>
+  <button
+    onClick={() => handleAddToCart(product)}
+    className="px-4 py-2 bg-black text-white rounded-full hover:bg-gray-800 transition"
+  >
+    Add to Cart
+  </button>
+</div>
+
                 </div>
               );
             })

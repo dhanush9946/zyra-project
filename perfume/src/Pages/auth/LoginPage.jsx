@@ -41,7 +41,7 @@ function LoginPage() {
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-4">
   <form onSubmit={handleLogin}
      className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-md">
-    <h2 className="text-2xl font-bold text-center text-indigo-600 mb-6">Login to AURA</h2>
+    <h2 className="text-2xl font-bold text-center text-indigo-600 mb-6">Login to Zyra</h2>
 
     {/* Email */}
     <div className="mb-4">

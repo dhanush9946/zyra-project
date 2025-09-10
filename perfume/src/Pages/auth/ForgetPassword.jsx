@@ -48,7 +48,7 @@ function ForgotPassword() {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-20 p-6 border rounded-lg shadow-md">
+    <div className="max-w-md mx-auto mt-20 p-6 border rounded-lg shadow-md mb-42 mt-20">
       <h2 className="text-2xl font-bold mb-4 text-center">Forgot Password</h2>
 
       {step === 1 ? (

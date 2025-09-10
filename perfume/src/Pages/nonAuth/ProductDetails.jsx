@@ -50,8 +50,8 @@ export default function ProductDetails() {
     );
 
   return (
-    <div className="max-w-6xl mx-auto px-6 py-10 mt-16">
-      <NavigationBar />
+    <div className="max-w-6xl mx-auto px-6 py-10 mt-20">
+      
 
       <div className="grid md:grid-cols-2 gap-10 items-center">
         {/* Left: Big Product Image */}
