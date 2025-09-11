@@ -1,282 +1,130 @@
 {
   "users": [
     {
-      "id": "b818",
-      "name": "aiman",
-      "email": "aiman123@gmail.com",
-      "password": "123456789",
-      "confirmPassword": "123456789",
-      "cart": [
-        {
-          "id": "3",
-          "name": "Armani Code",
-          "brand": "Giorgio Armani",
-          "category": "Eau de Toilette",
-          "price": 7800,
-          "gender": "Men",
-          "description": "Elegant scent with citrus, leather, and tonka bean.",
-          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697",
-          "qty": 2
-        },
-        {
-          "id": "4",
-          "name": "Chanel No. 5",
-          "brand": "Chanel",
-          "category": "Eau de Parfum",
-          "price": 10500,
-          "gender": "Women",
-          "description": "Classic floral-aldehydic fragrance with jasmine and rose.",
-          "image": "https://hips.hearstapps.com/hmg-prod/images/06-ic32-n5-100ans-carre-6-hd-1616167247.png",
-          "qty": 1
-        }
-      ],
-      "wishList": [],
-      "order": [
-        {
-          "id": 1757422348449,
-          "items": [
-            {
-              "id": "2",
-              "name": "Bleu de Chanel",
-              "brand": "Chanel",
-              "category": "Eau de Parfum",
-              "price": 9200,
-              "gender": "Men",
-              "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
-              "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
-              "qty": 1
-            }
-          ],
-          "total": 9200,
-          "address": "kozhikode",
-          "phone": "9188355199",
-          "paymentMethod": "cod",
-          "status": "pending",
-          "date": "2025-09-09T12:52:28.449Z"
-        },
-        {
-          "id": 1757422501024,
-          "items": [
-            {
-              "id": "2",
-              "name": "Bleu de Chanel",
-              "brand": "Chanel",
-              "category": "Eau de Parfum",
-              "price": 9200,
-              "gender": "Men",
-              "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
-              "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
-              "qty": 1
-            },
-            {
-              "id": "7",
-              "name": "Gucci Bloom",
-              "brand": "Gucci",
-              "category": "Eau de Parfum",
-              "price": 8200,
-              "gender": "Women",
-              "description": "A rich white floral fragrance with jasmine and tuberose.",
-              "image": "https://media.landmarkshops.in/cdn-cgi/image/h=1125,w=1125,q=85,fit=cover/lifestyle/1000013360399-1000013360398_04-2100.jpg",
-              "qty": 1
-            },
-            {
-              "id": "10",
-              "name": "Jean Paul Gaultier Le Male",
-              "brand": "Jean Paul Gaultier",
-              "category": "Eau de Toilette",
-              "price": 7800,
-              "gender": "Men",
-              "description": "Fresh mint, lavender, and vanilla for a bold signature.",
-              "image": "https://fimgs.net/mdimg/perfume/375x500.21.jpg",
-              "qty": 1
-            }
-          ],
-          "total": 25200,
-          "address": "kasaragod",
-          "phone": "9846388075",
-          "paymentMethod": "cod",
-          "status": "pending",
-          "date": "2025-09-09T12:55:01.024Z"
-        },
-        {
-          "id": 1757424130077,
-          "items": [
-            {
-              "id": "1",
-              "name": "Dior Sauvage",
-              "brand": "Dior",
-              "category": "Eau de Toilette",
-              "price": 8500,
-              "gender": "Men",
-              "description": "Fresh, spicy fragrance with bergamot, pepper, and ambroxan.",
-              "image": "https://images.unsplash.com/photo-1700473170883-47612d466783?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlvciUyMHNhdXZhZ2V8ZW58MHx8MHx8fDA%3D",
-              "qty": 3
-            },
-            {
-              "id": "2",
-              "name": "Bleu de Chanel",
-              "brand": "Chanel",
-              "category": "Eau de Parfum",
-              "price": 9200,
-              "gender": "Men",
-              "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
-              "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
-              "qty": 1
-            }
-          ],
-          "total": 34700,
-          "address": "rtgygg",
-          "phone": "9188355199",
-          "paymentMethod": "upi",
-          "status": "pending",
-          "date": "2025-09-09T13:22:10.077Z"
-        }
-      ]
-    },
-    {
-      "id": "d870",
-      "name": "Dhanush",
-      "email": "dhanush123@gmail.com",
-      "password": "9846388075",
-      "confirmPassword": "9846388075",
-      "cart": [
-        {
-          "id": "2",
-          "name": "Bleu de Chanel",
-          "brand": "Chanel",
-          "category": "Eau de Parfum",
-          "price": 9200,
-          "gender": "Men",
-          "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
-          "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
-          "qty": 1
-        }
-      ],
-      "wishList": [],
-      "order": [
-        {
-          "id": 1757429302496,
-          "items": [
-            {
-              "id": "2",
-              "name": "Bleu de Chanel",
-              "brand": "Chanel",
-              "category": "Eau de Parfum",
-              "price": 9200,
-              "gender": "Men",
-              "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
-              "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
-              "qty": 1
-            }
-          ],
-          "total": 9200,
-          "address": "kochi",
-          "phone": "9188355199",
-          "paymentMethod": "upi",
-          "status": "pending",
-          "date": "2025-09-09T14:48:22.496Z"
-        },
-        {
-          "id": 1757502909379,
-          "name": "Dhanush V",
-          "items": [
-            {
-              "id": "6",
-              "name": "YSL Black Opium",
-              "brand": "Yves Saint Laurent",
-              "category": "Eau de Parfum",
-              "price": 8700,
-              "gender": "Women",
-              "description": "Warm and sensual with coffee, vanilla, and white flowers.",
-              "image": "https://www.meagherspharmacy.ie/cdn/shop/files/yves-saint-laurent-black-opium-eau-de-parfum-fragrance-meaghers-pharmacy-30464830013553.jpg?v=1690494310&width=1214",
-              "qty": 1
-            },
-            {
-              "id": "2",
-              "name": "Bleu de Chanel",
-              "brand": "Chanel",
-              "category": "Eau de Parfum",
-              "price": 9200,
-              "gender": "Men",
-              "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
-              "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
-              "qty": 1
-            },
-            {
-              "id": "1",
-              "name": "Dior Sauvage",
-              "brand": "Dior",
-              "category": "Eau de Toilette",
-              "price": 8500,
-              "gender": "Men",
-              "description": "Fresh, spicy fragrance with bergamot, pepper, and ambroxan.",
-              "image": "https://images.unsplash.com/photo-1700473170883-47612d466783?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlvciUyMHNhdXZhZ2V8ZW58MHx8MHx8fDA%3D",
-              "qty": 1
-            },
-            {
-              "id": "7",
-              "name": "Gucci Bloom",
-              "brand": "Gucci",
-              "category": "Eau de Parfum",
-              "price": 8200,
-              "gender": "Women",
-              "description": "A rich white floral fragrance with jasmine and tuberose.",
-              "image": "https://media.landmarkshops.in/cdn-cgi/image/h=1125,w=1125,q=85,fit=cover/lifestyle/1000013360399-1000013360398_04-2100.jpg",
-              "qty": 2
-            },
-            {
-              "id": "3",
-              "name": "Armani Code",
-              "brand": "Giorgio Armani",
-              "category": "Eau de Toilette",
-              "price": 7800,
-              "gender": "Men",
-              "description": "Elegant scent with citrus, leather, and tonka bean.",
-              "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697",
-              "qty": 1
-            },
-            {
-              "id": "5",
-              "name": "Lancôme La Vie Est Belle",
-              "brand": "Lancôme",
-              "category": "Eau de Parfum",
-              "price": 8900,
-              "gender": "Women",
-              "description": "Sweet and elegant with iris, praline, and vanilla.",
-              "image": "https://www.lancome.in/dw/image/v2/BJSQ_PRD/on/demandware.static/-/Sites-lancome-in-ng-Library/default/dw3bec8100/images/pdp/00027-LAC/REDISCOVER_AN_ICONIC_SYMBOL_02_DESK_X1.jpg?sw=1080&sh=1080&sm=cut&sfrm=jpg&q=70",
-              "qty": 1
-            }
-          ],
-          "total": 59500,
-          "address": "Vattakkayam(H), Poothanganam, parakkalai(PO), 671531(Pin) Anandasramam (via), kasaragod\nModagramam temple",
-          "phone": "9846388075",
-          "paymentMethod": "cod",
-          "status": "pending",
-          "date": "2025-09-10T11:15:09.379Z"
-        }
-      ],
-      "wishlist": [
-        {
-          "id": "3",
-          "name": "Armani Code",
-          "brand": "Giorgio Armani",
-          "category": "Eau de Toilette",
-          "price": 7800,
-          "gender": "Men",
-          "description": "Elegant scent with citrus, leather, and tonka bean.",
-          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697"
-        }
-      ]
-    },
-    {
-      "id": "8a1d",
-      "name": "athul",
-      "email": "athul123@gmail.com",
-      "password": "123456789",
-      "confirmPassword": "123456789",
+      "id": "0526",
+      "name": "dhanush",
+      "email": "admin123@gmail.com",
+      "password": "9946994085",
+      "confirmPassword": "9946994085",
+      "role": "admin",
       "cart": [],
       "wishList": [],
       "order": []
+    },
+    {
+      "id": "2fa7",
+      "name": "adhil",
+      "email": "adhil123@gmail.com",
+      "password": "1234567",
+      "confirmPassword": "1234567",
+      "role": "user",
+      "cart": [],
+      "wishList": [],
+      "order": [
+        {
+          "id": 1757604743314,
+          "name": "adhil khan",
+          "items": [
+            {
+              "id": "2",
+              "name": "Bleu de Chanel",
+              "brand": "Chanel",
+              "category": "Eau de Parfum",
+              "price": 9200,
+              "gender": "Men",
+              "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+              "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
+              "qty": 1
+            }
+          ],
+          "total": 9200,
+          "address": "kozhikode,kerala,india,723635",
+          "phone": "1234567890",
+          "paymentMethod": "upi",
+          "status": "pending",
+          "date": "2025-09-11T15:32:23.314Z"
+        },
+        {
+          "id": 1757606629453,
+          "name": "adhil khan",
+          "items": [
+            {
+              "id": "7",
+              "name": "Gucci Bloom",
+              "brand": "Gucci",
+              "category": "Eau de Parfum",
+              "price": 8200,
+              "gender": "Women",
+              "description": "A rich white floral fragrance with jasmine and tuberose.",
+              "image": "https://media.landmarkshops.in/cdn-cgi/image/h=1125,w=1125,q=85,fit=cover/lifestyle/1000013360399-1000013360398_04-2100.jpg",
+              "qty": 1
+            }
+          ],
+          "total": 8200,
+          "address": "kozhikode",
+          "phone": "1234567890",
+          "paymentMethod": "card",
+          "status": "pending",
+          "date": "2025-09-11T16:03:49.453Z"
+        },
+        {
+          "id": 1757606764524,
+          "name": "adhil khan",
+          "items": [
+            {
+              "id": "9",
+              "name": "Armani Code Profumo",
+              "brand": "Giorgio Armani",
+              "category": "Eau de Parfum",
+              "price": 8900,
+              "gender": "Men",
+              "description": "Oriental spicy scent with tonka bean, leather, and amber.",
+              "image": "https://fimgs.net/mdimg/perfume/375x500.35489.jpg",
+              "qty": 1
+            },
+            {
+              "id": "13",
+              "name": "Maison Francis Kurkdjian Baccarat Rouge 540",
+              "brand": "MFK",
+              "category": "Eau de Parfum",
+              "price": 24500,
+              "gender": "Unisex",
+              "description": "Woody, amber, and floral with saffron and jasmine.",
+              "image": "https://fimgs.net/mdimg/perfume/375x500.30900.jpg",
+              "qty": 1
+            },
+            {
+              "id": "14",
+              "name": "Hermès Terre d’Hermès",
+              "brand": "Hermès",
+              "category": "Eau de Toilette",
+              "price": 8800,
+              "gender": "Men",
+              "description": "Woody mineral fragrance with grapefruit, cedar, and vetiver.",
+              "image": "https://fimgs.net/mdimg/perfume/375x500.1004.jpg",
+              "qty": 1
+            },
+            {
+              "id": "15",
+              "name": "Dolce & Gabbana Light Blue",
+              "brand": "Dolce & Gabbana",
+              "category": "Eau de Toilette",
+              "price": 7600,
+              "gender": "Women",
+              "description": "Citrus, apple, cedar, and bamboo for a fresh Mediterranean vibe.",
+              "image": "https://fimgs.net/mdimg/perfume/375x500.6.jpg",
+              "qty": 1
+            }
+          ],
+          "total": 49800,
+          "address": "kozhikode",
+          "phone": "1234567890",
+          "paymentMethod": "cod",
+          "status": "pending",
+          "date": "2025-09-11T16:06:04.524Z"
+        }
+      ],
+      "status": "active"
     }
   ],
   "perfumes": [

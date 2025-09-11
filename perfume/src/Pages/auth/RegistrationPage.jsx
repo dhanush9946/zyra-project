@@ -37,6 +37,8 @@ function RegistrationPage() {
       email,
       password,
       confirmPassword,
+      role:"user",
+      status:"active",
       cart: [],
       wishList: [],
       order: [],
