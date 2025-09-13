@@ -7,7 +7,7 @@ function CartProvider({ children }) {
   const [cart, setCart] = useState([]);
   const [userId, setUserId] = useState(null);
 
-  // ✅ load user and cart on mount
+  // load user and cart on mount
   useEffect(() => {
     const storedUser = JSON.parse(localStorage.getItem("user"));
     if (storedUser && storedUser.id) {
@@ -16,7 +16,7 @@ function CartProvider({ children }) {
     }
   }, []);
 
-  // ✅ load cart for this user
+  //  load cart for this user
   const loadCart = async (id) => {
     try {
       const res = await axios.get(`http://localhost:3000/users/${id}`);
@@ -26,7 +26,7 @@ function CartProvider({ children }) {
     }
   };
 
-  // ✅ add item to cart (with qty support)
+  //  add item to cart (with qty support)
   const addToCart = async (product) => {
     const existingItem = cart.find((item) => item.id === product.id);
 
@@ -55,7 +55,7 @@ function CartProvider({ children }) {
     toast.success("Product added to cart!");
   };
 
-  // ✅ remove from cart (decrease qty or remove completely)
+  // remove from cart (decrease qty or remove completely)
   const removeFromCart = async (id) => {
     const existingItem = cart.find((item) => item.id === id);
 
@@ -81,7 +81,7 @@ function CartProvider({ children }) {
     }
   };
 
-  // ✅ clear entire cart
+  //  clear entire cart
   const clearCart = async () => {
     setCart([]);
     if (userId) {

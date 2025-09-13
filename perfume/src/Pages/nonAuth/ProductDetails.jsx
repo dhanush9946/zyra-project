@@ -11,7 +11,7 @@ export default function ProductDetails() {
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const { addToCart } = useContext(CartContext); // ✅ Get addToCart
+  const { addToCart } = useContext(CartContext); //  Get addToCart
 
   useEffect(() => {
     axios
@@ -26,7 +26,7 @@ export default function ProductDetails() {
       });
   }, [id]);
 
-  // ✅ Handle Add to Cart with login check
+  //  Handle Add to Cart with login check
   const handleAddToCart = () => {
     const user = JSON.parse(localStorage.getItem("user"));
     if (!user) {
@@ -54,7 +54,7 @@ export default function ProductDetails() {
       
 
       <div className="grid md:grid-cols-2 gap-10 items-center">
-        {/* Left: Big Product Image */}
+        {/* Product Image */}
         <div className="relative group">
           <img
             src={product.image || "https://via.placeholder.com/500"}
@@ -75,12 +75,12 @@ export default function ProductDetails() {
 
           <p className="text-3xl font-bold text-pink-600">₹{product.price}</p>
 
-          {/* ✅ Add to Cart Button */}
+          {/* Add to Cart */}
           <button
             onClick={handleAddToCart}
             className="px-8 py-3 bg-gradient-to-r from-pink-600 to-pink-700 text-white rounded-xl shadow-lg hover:scale-105 transition-transform"
           >
-            🛒 Add to Cart
+             Add to Cart
           </button>
 
           {/* Highlights */}

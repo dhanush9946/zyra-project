@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Outlet, useNavigate, useLocation } from "react-router-dom";
-import { LayoutDashboard, Package, ShoppingCart, Users, LogOut } from "lucide-react"; // icons
+import { LayoutDashboard, Package, ShoppingCart, Users, LogOut } from "lucide-react"; 
 
 const Sidebar = () => {
   const navigate = useNavigate();
@@ -11,7 +11,7 @@ const Sidebar = () => {
     navigate("/login");
   };
 
-  // menu items
+  
   const menu = [
     { name: "Dashboard", path: "/admin/dashboard", icon: <LayoutDashboard size={20} /> },
     { name: "Products", path: "/admin/products", icon: <Package size={20} /> },
@@ -24,10 +24,10 @@ const Sidebar = () => {
       {/* Sidebar */}
       <aside className="w-64 bg-gray-900 text-white flex flex-col justify-between p-5">
         <div>
-          {/* Logo / Title */}
+          
           <h2 className="text-2xl font-bold mb-8 text-center">Admin Panel</h2>
 
-          {/* Menu */}
+          
           <nav className="flex flex-col gap-3">
             {menu.map((item) => (
               <Link

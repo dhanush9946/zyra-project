@@ -76,11 +76,11 @@ const chartData = Object.values(salesTrends).sort(
     value: statusCounts[status],
   }));
 
-  const COLORS = ["#f59e0b", "#10b981", "#3b82f6", "#ef4444"]; // yellow, green, blue, red
+  const COLORS = ["#f59e0b", "#10b981", "#3b82f6", "#ef4444"]; 
 
   // User Comparison Data
  const userComparisonData = users.slice(1).map((u, index) => ({
-  id: index, // unique id for chart
+  id: index, 
   name: u.name || `User ${index + 1}`, // fallback if no name
   cart: u.cart?.length || 0,
   orders: u.order?.length || 0,

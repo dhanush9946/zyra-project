@@ -3,9 +3,9 @@ import axios from "axios";
 
 const Orders = () => {
   const [orders, setOrders] = useState([]);
-  const [filter, setFilter] = useState("all"); // NEW state for filter
+  const [filter, setFilter] = useState("all");
 
-  // Fetch orders from all users
+  
   useEffect(() => {
     const fetchOrders = async () => {
       try {
@@ -66,7 +66,7 @@ const Orders = () => {
 
   return (
     <div className="p-6 bg-white shadow rounded-xl">
-      <h2 className="text-2xl font-bold mb-6">Manage Orders 📦</h2>
+      <h2 className="text-2xl font-bold mb-6">Manage Orders</h2>
 
       {/* Order Summary */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">

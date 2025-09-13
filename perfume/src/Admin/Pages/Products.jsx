@@ -98,7 +98,7 @@ const Products = () => {
 
   return (
     <div className="p-6 bg-white shadow rounded-xl">
-      <h2 className="text-2xl font-bold mb-6">Manage Products 🛍️</h2>
+      <h2 className="text-2xl font-bold mb-6">Manage Products</h2>
 
       {/* Search bar */}
       <div className="flex justify-between mb-4">

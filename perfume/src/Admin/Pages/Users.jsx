@@ -4,7 +4,7 @@ import axios from "axios";
 const Users = () => {
   const [users, setUsers] = useState([]);
 
-  // fetch users from backend (JSON-server or API)
+  
   useEffect(() => {
     const fetchUsers = async () => {
       try {
@@ -37,7 +37,7 @@ const Users = () => {
 
   return (
     <div className="p-6 bg-white shadow rounded-xl">
-      <h2 className="text-2xl font-bold mb-6">Manage Users 👥</h2>
+      <h2 className="text-2xl font-bold mb-6">Manage Users </h2>
 
       <table className="w-full border border-gray-200 rounded-lg overflow-hidden">
         <thead className="bg-gray-100">

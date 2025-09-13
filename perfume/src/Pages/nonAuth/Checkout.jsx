@@ -56,7 +56,7 @@ export default function Checkout() {
       const updatedUser = {
         ...user,
         order: [...(user.order || []), newOrder],
-        cart: [], // clear cart in backend
+        cart: [], 
       };
 
       await axios.put(`http://localhost:3000/users/${user.id}`, updatedUser);

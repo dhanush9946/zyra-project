@@ -7,35 +7,10 @@
       "password": "9946994085",
       "confirmPassword": "9946994085",
       "role": "admin",
-      "cart": [
-        {
-          "id": "3",
-          "name": "Armani Code",
-          "brand": "Giorgio Armani",
-          "category": "Eau de Toilette",
-          "price": 7800,
-          "status": "active",
-          "gender": "Men",
-          "description": "Elegant scent with citrus, leather, and tonka bean.",
-          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697",
-          "qty": 1
-        }
-      ],
+      "cart": [],
       "wishList": [],
       "order": [],
-      "wishlist": [
-        {
-          "id": "3",
-          "name": "Armani Code",
-          "brand": "Giorgio Armani",
-          "category": "Eau de Toilette",
-          "price": 7800,
-          "status": "active",
-          "gender": "Men",
-          "description": "Elegant scent with citrus, leather, and tonka bean.",
-          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697"
-        }
-      ]
+      "wishlist": []
     },
     {
       "id": "2fa7",
@@ -44,44 +19,7 @@
       "password": "1234567",
       "confirmPassword": "1234567",
       "role": "user",
-      "cart": [
-        {
-          "id": "2",
-          "name": "Bleu de Chanel",
-          "brand": "Chanel",
-          "category": "Eau de Parfum",
-          "price": 9200,
-          "status": "active",
-          "gender": "Men",
-          "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
-          "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
-          "qty": 1
-        },
-        {
-          "id": "4",
-          "name": "Chanel No. 5",
-          "brand": "Chanel",
-          "category": "Eau de Parfum",
-          "price": 10500,
-          "status": "active",
-          "gender": "Women",
-          "description": "Classic floral-aldehydic fragrance with jasmine and rose.",
-          "image": "https://hips.hearstapps.com/hmg-prod/images/06-ic32-n5-100ans-carre-6-hd-1616167247.png",
-          "qty": 1
-        },
-        {
-          "id": "3",
-          "name": "Armani Code",
-          "brand": "Giorgio Armani",
-          "category": "Eau de Toilette",
-          "price": 7800,
-          "status": "active",
-          "gender": "Men",
-          "description": "Elegant scent with citrus, leather, and tonka bean.",
-          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697",
-          "qty": 2
-        }
-      ],
+      "cart": [],
       "wishList": [],
       "order": [
         {
@@ -267,33 +205,34 @@
           "paymentMethod": "cod",
           "status": "pending",
           "date": "2025-09-13T04:38:59.009Z"
+        },
+        {
+          "id": 1757754507505,
+          "name": "aaddul",
+          "items": [
+            {
+              "id": "2",
+              "name": "Bleu de Chanel",
+              "brand": "Chanel",
+              "category": "Eau de Parfum",
+              "price": 9200,
+              "status": "active",
+              "gender": "Men",
+              "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+              "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
+              "qty": 1
+            }
+          ],
+          "total": 9200,
+          "address": "kozhikode",
+          "phone": "35364748",
+          "paymentMethod": "cod",
+          "status": "pending",
+          "date": "2025-09-13T09:08:27.505Z"
         }
       ],
       "status": "active",
-      "wishlist": [
-        {
-          "id": "3",
-          "name": "Armani Code",
-          "brand": "Giorgio Armani",
-          "category": "Eau de Toilette",
-          "price": 7800,
-          "status": "active",
-          "gender": "Men",
-          "description": "Elegant scent with citrus, leather, and tonka bean.",
-          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697"
-        },
-        {
-          "id": "2",
-          "name": "Bleu de Chanel",
-          "brand": "Chanel",
-          "category": "Eau de Parfum",
-          "price": 9200,
-          "status": "active",
-          "gender": "Men",
-          "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
-          "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg"
-        }
-      ]
+      "wishlist": []
     },
     {
       "id": "203f",
@@ -436,7 +375,7 @@
   "perfumes": [
     {
       "id": "1",
-      "name": "Dior Sauvage",
+      "name": "Dior Sauvage 99",
       "brand": "Dior",
       "category": "Eau de Toilette",
       "price": "8501",
@@ -848,6 +787,15 @@
       "category": "perfume",
       "price": 600,
       "image": "https://beardo.in/cdn/shop/files/Beardo_WS_EDP_A__Banner_2160x2160_a3afd2ff-c042-4ae1-95f0-9fbaf5dd3123.jpg?v=1755774366&width=1946",
+      "status": "active"
+    },
+    {
+      "id": "1757754696848",
+      "name": "wisky smoke",
+      "brand": "beardo",
+      "category": "perfume",
+      "price": 999,
+      "image": "data:image/jpeg;base64,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",
       "status": "active"
     }
   ]
