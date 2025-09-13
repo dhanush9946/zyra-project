@@ -38,13 +38,21 @@ function Products() {
 
   // add to cart with login check
   const handleAddToCart = (product) => {
-    const user = JSON.parse(localStorage.getItem("user"));
-    if (!user) {
-      toast.error("Please login to add items to your cart!");
-      return;
-    }
-    addToCart(product);
-  };
+  const user = JSON.parse(localStorage.getItem("user"));
+  
+  if (!user) {
+    toast.error("Please login to add items to your cart!");
+    return;
+  }
+
+  if (product.status !== "active") {
+    toast.error("This product is currently unavailable!");
+    return;
+  }
+
+  addToCart(product);
+};
+
 
   // toggle wishlist
   const toggleWishlist = (product) => {
@@ -142,6 +150,18 @@ function Products() {
                       className="h-full w-full object-cover transition-transform duration-500"
                     />
                   </div>
+
+
+                  {/* Status Badge */}
+              <span
+                className={`absolute top-2 left-2 px-3 py-1 text-xs rounded-lg ${
+                  product.status === "active"
+                    ? "bg-green-100 text-green-600"
+                    : "bg-red-100 text-red-600"
+                }`}
+              >
+                {product.status === "active" ? "Available" : "Out of Stock"}
+              </span>
 
                   {/* Product Info */}
                   <div

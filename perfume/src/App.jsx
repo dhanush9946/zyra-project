@@ -1,5 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+  Outlet,
+} from "react-router-dom";
 
 import ProductProvider from "./context/ProductProvider";
 import CartProvider from "./context/CartProvider";
@@ -19,16 +25,15 @@ import ProductDetails from "./Pages/nonAuth/ProductDetails";
 
 // Admin
 import Sidebar from "./Admin/Sidebar/Sidebar";
-import AdminDashboard from "./admin/pages/Dashboard";
-import AdminProducts from "./admin/pages/Products";
+import Dashboard from "./Admin/Pages/Dashboard";
+import AdminProducts from "./Admin/Pages/Products";
 import AdminOrders from "./admin/pages/Orders";
 import AdminUsers from "./admin/pages/Users";
-
 
 import LoginPage from "./Pages/auth/LoginPage";
 import RegistrationPage from "./Pages/auth/RegistrationPage";
 import ForgotPassword from "./Pages/auth/ForgetPassword";
-
+import NotFound from "./Pages/nonAuth/NotFound";
 
 import ProtectedRoute from "./ProtectedRoute";
 
@@ -37,9 +42,8 @@ function AppWrapper() {
 
   // Hide navbar & footer on login/register
   const hideLayout =
-  ["/login", "/register"].includes(location.pathname) ||
-  location.pathname.startsWith("/admin");
-
+    ["/login", "/register"].includes(location.pathname) ||
+    location.pathname.startsWith("/admin");
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -50,13 +54,20 @@ function AppWrapper() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegistrationPage />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/cart" element={<CartPage />} />
-          <Route path="/profile" element={<ProfilePage />} />
-          <Route path="/wishlist" element={<WishlistPage />} />
-          <Route path="/forgetPassword" element={<ForgotPassword />} />
-          <Route path="/checkout" element={<Checkout />} />
-          <Route path="/product/:id" element={<ProductDetails />} />
+
+           
+
+            <Route path="/products" element={<Products />} />
+    
+            <Route path="/cart" element={<CartPage />} />
+            <Route path="/profile" element={<ProfilePage />} />
+            <Route path="/wishlist" element={<WishlistPage />} />
+            <Route path="/forgetPassword" element={<ForgotPassword />} />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/product/:id" element={<ProductDetails />} />
+
+            
+            <Route path="*" element={<NotFound/>} />
 
           {/* Admin routes */}
           <Route
@@ -67,7 +78,7 @@ function AppWrapper() {
               </ProtectedRoute>
             }
           >
-            <Route path="dashboard" element={<AdminDashboard />} />
+            <Route path="dashboard" element={<Dashboard />} />
             <Route path="products" element={<AdminProducts />} />
             <Route path="orders" element={<AdminOrders />} />
             <Route path="users" element={<AdminUsers />} />

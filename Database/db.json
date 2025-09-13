@@ -7,9 +7,35 @@
       "password": "9946994085",
       "confirmPassword": "9946994085",
       "role": "admin",
-      "cart": [],
+      "cart": [
+        {
+          "id": "3",
+          "name": "Armani Code",
+          "brand": "Giorgio Armani",
+          "category": "Eau de Toilette",
+          "price": 7800,
+          "status": "active",
+          "gender": "Men",
+          "description": "Elegant scent with citrus, leather, and tonka bean.",
+          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697",
+          "qty": 1
+        }
+      ],
       "wishList": [],
-      "order": []
+      "order": [],
+      "wishlist": [
+        {
+          "id": "3",
+          "name": "Armani Code",
+          "brand": "Giorgio Armani",
+          "category": "Eau de Toilette",
+          "price": 7800,
+          "status": "active",
+          "gender": "Men",
+          "description": "Elegant scent with citrus, leather, and tonka bean.",
+          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697"
+        }
+      ]
     },
     {
       "id": "2fa7",
@@ -18,7 +44,44 @@
       "password": "1234567",
       "confirmPassword": "1234567",
       "role": "user",
-      "cart": [],
+      "cart": [
+        {
+          "id": "2",
+          "name": "Bleu de Chanel",
+          "brand": "Chanel",
+          "category": "Eau de Parfum",
+          "price": 9200,
+          "status": "active",
+          "gender": "Men",
+          "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+          "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
+          "qty": 1
+        },
+        {
+          "id": "4",
+          "name": "Chanel No. 5",
+          "brand": "Chanel",
+          "category": "Eau de Parfum",
+          "price": 10500,
+          "status": "active",
+          "gender": "Women",
+          "description": "Classic floral-aldehydic fragrance with jasmine and rose.",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/06-ic32-n5-100ans-carre-6-hd-1616167247.png",
+          "qty": 1
+        },
+        {
+          "id": "3",
+          "name": "Armani Code",
+          "brand": "Giorgio Armani",
+          "category": "Eau de Toilette",
+          "price": 7800,
+          "status": "active",
+          "gender": "Men",
+          "description": "Elegant scent with citrus, leather, and tonka bean.",
+          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697",
+          "qty": 2
+        }
+      ],
       "wishList": [],
       "order": [
         {
@@ -41,7 +104,7 @@
           "address": "kozhikode,kerala,india,723635",
           "phone": "1234567890",
           "paymentMethod": "upi",
-          "status": "pending",
+          "status": "delivered",
           "date": "2025-09-11T15:32:23.314Z"
         },
         {
@@ -122,9 +185,252 @@
           "paymentMethod": "cod",
           "status": "pending",
           "date": "2025-09-11T16:06:04.524Z"
+        },
+        {
+          "id": 1757737729731,
+          "name": "adhiv khaaan",
+          "items": [
+            {
+              "id": "3",
+              "name": "Armani Code",
+              "brand": "Giorgio Armani",
+              "category": "Eau de Toilette",
+              "price": 7800,
+              "status": "active",
+              "gender": "Men",
+              "description": "Elegant scent with citrus, leather, and tonka bean.",
+              "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697",
+              "qty": 1
+            },
+            {
+              "id": "1757663354252",
+              "name": "Whisky smoke",
+              "brand": "Beardo",
+              "category": "parfume",
+              "price": 599,
+              "image": "https://beardo.in/cdn/shop/files/Beardo_WS_EDP_A__Banner_2160x2160_a3afd2ff-c042-4ae1-95f0-9fbaf5dd3123.jpg?v=1755774366&width=1946",
+              "status": "active",
+              "qty": 1
+            },
+            {
+              "id": "12",
+              "name": "YSL Libre",
+              "brand": "Yves Saint Laurent",
+              "category": "Eau de Parfum",
+              "price": 9700,
+              "status": "active",
+              "gender": "Women",
+              "description": "Lavender essence with orange blossom and musk accord.",
+              "image": "https://fimgs.net/mdimg/perfume/375x500.56756.jpg",
+              "qty": 1
+            }
+          ],
+          "total": 18099,
+          "address": "kozhikkod ",
+          "phone": "2345678987",
+          "paymentMethod": "card",
+          "status": "pending",
+          "date": "2025-09-13T04:28:49.731Z"
+        },
+        {
+          "id": 1757738339009,
+          "name": "adhil",
+          "items": [
+            {
+              "id": "2",
+              "name": "Bleu de Chanel",
+              "brand": "Chanel",
+              "category": "Eau de Parfum",
+              "price": 9200,
+              "status": "active",
+              "gender": "Men",
+              "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+              "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
+              "qty": 1
+            },
+            {
+              "id": "3",
+              "name": "Armani Code",
+              "brand": "Giorgio Armani",
+              "category": "Eau de Toilette",
+              "price": 7800,
+              "status": "active",
+              "gender": "Men",
+              "description": "Elegant scent with citrus, leather, and tonka bean.",
+              "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697",
+              "qty": 1
+            }
+          ],
+          "total": 17000,
+          "address": "ddfdf",
+          "phone": "948463435",
+          "paymentMethod": "cod",
+          "status": "pending",
+          "date": "2025-09-13T04:38:59.009Z"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "wishlist": [
+        {
+          "id": "3",
+          "name": "Armani Code",
+          "brand": "Giorgio Armani",
+          "category": "Eau de Toilette",
+          "price": 7800,
+          "status": "active",
+          "gender": "Men",
+          "description": "Elegant scent with citrus, leather, and tonka bean.",
+          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697"
+        },
+        {
+          "id": "2",
+          "name": "Bleu de Chanel",
+          "brand": "Chanel",
+          "category": "Eau de Parfum",
+          "price": 9200,
+          "status": "active",
+          "gender": "Men",
+          "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+          "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg"
+        }
+      ]
+    },
+    {
+      "id": "203f",
+      "name": "aiman",
+      "email": "aimannnn@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "role": "user",
+      "status": "active",
+      "cart": [
+        {
+          "id": "2",
+          "name": "Bleu de Chanel",
+          "brand": "Chanel",
+          "category": "Eau de Parfum",
+          "price": 9200,
+          "status": "active",
+          "gender": "Men",
+          "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+          "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
+          "qty": 1
+        },
+        {
+          "id": "4",
+          "name": "Chanel No. 5",
+          "brand": "Chanel",
+          "category": "Eau de Parfum",
+          "price": 10500,
+          "status": "active",
+          "gender": "Women",
+          "description": "Classic floral-aldehydic fragrance with jasmine and rose.",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/06-ic32-n5-100ans-carre-6-hd-1616167247.png",
+          "qty": 1
+        }
+      ],
+      "wishList": [],
+      "order": [
+        {
+          "id": 1757686817445,
+          "name": "aiman",
+          "items": [
+            {
+              "id": "2",
+              "name": "Bleu de Chanel",
+              "brand": "Chanel",
+              "category": "Eau de Parfum",
+              "price": 9200,
+              "status": "active",
+              "gender": "Men",
+              "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+              "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
+              "qty": 1
+            },
+            {
+              "id": "3",
+              "name": "Armani Code",
+              "brand": "Giorgio Armani",
+              "category": "Eau de Toilette",
+              "price": 7800,
+              "status": "active",
+              "gender": "Men",
+              "description": "Elegant scent with citrus, leather, and tonka bean.",
+              "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697",
+              "qty": 1
+            }
+          ],
+          "total": 17000,
+          "address": "malappuram kerala india",
+          "phone": "53547657578",
+          "paymentMethod": "cod",
+          "status": "shipped",
+          "date": "2025-09-12T14:20:17.445Z"
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "3",
+          "name": "Armani Code",
+          "brand": "Giorgio Armani",
+          "category": "Eau de Toilette",
+          "price": 7800,
+          "status": "active",
+          "gender": "Men",
+          "description": "Elegant scent with citrus, leather, and tonka bean.",
+          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697"
+        }
+      ]
+    },
+    {
+      "id": "3e14",
+      "name": "finan",
+      "email": "finan23636367@gmail.com",
+      "password": "987654321",
+      "confirmPassword": "987654321",
+      "role": "user",
+      "status": "active",
+      "cart": [
+        {
+          "id": "2",
+          "name": "Bleu de Chanel",
+          "brand": "Chanel",
+          "category": "Eau de Parfum",
+          "price": 9200,
+          "status": "active",
+          "gender": "Men",
+          "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+          "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
+          "qty": 1
+        },
+        {
+          "id": "3",
+          "name": "Armani Code",
+          "brand": "Giorgio Armani",
+          "category": "Eau de Toilette",
+          "price": 7800,
+          "status": "active",
+          "gender": "Men",
+          "description": "Elegant scent with citrus, leather, and tonka bean.",
+          "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697",
+          "qty": 1
+        }
+      ],
+      "wishList": [],
+      "order": [],
+      "wishlist": [
+        {
+          "id": "2",
+          "name": "Bleu de Chanel",
+          "brand": "Chanel",
+          "category": "Eau de Parfum",
+          "price": 9200,
+          "status": "active",
+          "gender": "Men",
+          "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+          "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg"
+        }
+      ]
     }
   ],
   "perfumes": [
@@ -133,7 +439,8 @@
       "name": "Dior Sauvage",
       "brand": "Dior",
       "category": "Eau de Toilette",
-      "price": 8500,
+      "price": "8501",
+      "status": "active",
       "gender": "Men",
       "description": "Fresh, spicy fragrance with bergamot, pepper, and ambroxan.",
       "image": "https://images.unsplash.com/photo-1700473170883-47612d466783?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlvciUyMHNhdXZhZ2V8ZW58MHx8MHx8fDA%3D"
@@ -144,6 +451,7 @@
       "brand": "Chanel",
       "category": "Eau de Parfum",
       "price": 9200,
+      "status": "active",
       "gender": "Men",
       "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
       "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg"
@@ -154,6 +462,7 @@
       "brand": "Giorgio Armani",
       "category": "Eau de Toilette",
       "price": 7800,
+      "status": "active",
       "gender": "Men",
       "description": "Elegant scent with citrus, leather, and tonka bean.",
       "image": "https://www.perfumenetwork.in/cdn/shop/files/Armanicodeparfum_2048x.png?v=1693046697"
@@ -164,6 +473,7 @@
       "brand": "Chanel",
       "category": "Eau de Parfum",
       "price": 10500,
+      "status": "active",
       "gender": "Women",
       "description": "Classic floral-aldehydic fragrance with jasmine and rose.",
       "image": "https://hips.hearstapps.com/hmg-prod/images/06-ic32-n5-100ans-carre-6-hd-1616167247.png"
@@ -174,6 +484,7 @@
       "brand": "Lancôme",
       "category": "Eau de Parfum",
       "price": 8900,
+      "status": "active",
       "gender": "Women",
       "description": "Sweet and elegant with iris, praline, and vanilla.",
       "image": "https://www.lancome.in/dw/image/v2/BJSQ_PRD/on/demandware.static/-/Sites-lancome-in-ng-Library/default/dw3bec8100/images/pdp/00027-LAC/REDISCOVER_AN_ICONIC_SYMBOL_02_DESK_X1.jpg?sw=1080&sh=1080&sm=cut&sfrm=jpg&q=70"
@@ -184,6 +495,7 @@
       "brand": "Yves Saint Laurent",
       "category": "Eau de Parfum",
       "price": 8700,
+      "status": "active",
       "gender": "Women",
       "description": "Warm and sensual with coffee, vanilla, and white flowers.",
       "image": "https://www.meagherspharmacy.ie/cdn/shop/files/yves-saint-laurent-black-opium-eau-de-parfum-fragrance-meaghers-pharmacy-30464830013553.jpg?v=1690494310&width=1214"
@@ -194,6 +506,7 @@
       "brand": "Gucci",
       "category": "Eau de Parfum",
       "price": 8200,
+      "status": "active",
       "gender": "Women",
       "description": "A rich white floral fragrance with jasmine and tuberose.",
       "image": "https://media.landmarkshops.in/cdn-cgi/image/h=1125,w=1125,q=85,fit=cover/lifestyle/1000013360399-1000013360398_04-2100.jpg"
@@ -204,19 +517,10 @@
       "brand": "Tom Ford",
       "category": "Eau de Parfum",
       "price": 15500,
+      "status": "active",
       "gender": "Unisex",
       "description": "An exotic blend of oud, spices, and vanilla with smoky depth.",
       "image": "https://sdcdn.io/tf/tf_sku_TAJK01_2000x2000_1.png?height=700px&width=700px"
-    },
-    {
-      "id": "9",
-      "name": "Armani Code Profumo",
-      "brand": "Giorgio Armani",
-      "category": "Eau de Parfum",
-      "price": 8900,
-      "gender": "Men",
-      "description": "Oriental spicy scent with tonka bean, leather, and amber.",
-      "image": "https://fimgs.net/mdimg/perfume/375x500.35489.jpg"
     },
     {
       "id": "10",
@@ -224,6 +528,7 @@
       "brand": "Jean Paul Gaultier",
       "category": "Eau de Toilette",
       "price": 7800,
+      "status": "active",
       "gender": "Men",
       "description": "Fresh mint, lavender, and vanilla for a bold signature.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.21.jpg"
@@ -234,6 +539,7 @@
       "brand": "Versace",
       "category": "Eau de Toilette",
       "price": 7200,
+      "status": "active",
       "gender": "Women",
       "description": "Fresh floral-fruity fragrance with pomegranate and peony.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.112.jpg"
@@ -244,6 +550,7 @@
       "brand": "Yves Saint Laurent",
       "category": "Eau de Parfum",
       "price": 9700,
+      "status": "active",
       "gender": "Women",
       "description": "Lavender essence with orange blossom and musk accord.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.56756.jpg"
@@ -254,6 +561,7 @@
       "brand": "MFK",
       "category": "Eau de Parfum",
       "price": 24500,
+      "status": "active",
       "gender": "Unisex",
       "description": "Woody, amber, and floral with saffron and jasmine.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.30900.jpg"
@@ -264,6 +572,7 @@
       "brand": "Hermès",
       "category": "Eau de Toilette",
       "price": 8800,
+      "status": "active",
       "gender": "Men",
       "description": "Woody mineral fragrance with grapefruit, cedar, and vetiver.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.1004.jpg"
@@ -274,6 +583,7 @@
       "brand": "Dolce & Gabbana",
       "category": "Eau de Toilette",
       "price": 7600,
+      "status": "active",
       "gender": "Women",
       "description": "Citrus, apple, cedar, and bamboo for a fresh Mediterranean vibe.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.6.jpg"
@@ -284,6 +594,7 @@
       "brand": "Prada",
       "category": "Eau de Toilette",
       "price": 8900,
+      "status": "active",
       "gender": "Men",
       "description": "Powdery iris and amber with neroli and patchouli.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.37522.jpg"
@@ -294,6 +605,7 @@
       "brand": "Lancome",
       "category": "Eau de Parfum",
       "price": 10200,
+      "status": "active",
       "gender": "Women",
       "description": "Iris gourmand with praline, black currant, and vanilla.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.13435.jpg"
@@ -304,6 +616,7 @@
       "brand": "Jo Malone",
       "category": "Cologne",
       "price": 8800,
+      "status": "active",
       "gender": "Unisex",
       "description": "Aromatic scent with ambrette seed, sea salt, and sage.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.25363.jpg"
@@ -314,6 +627,7 @@
       "brand": "Paco Rabanne",
       "category": "Eau de Toilette",
       "price": 8200,
+      "status": "active",
       "gender": "Men",
       "description": "Spicy leather with blood mandarin, cinnamon, and amber.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.473.jpg"
@@ -324,6 +638,7 @@
       "brand": "Carolina Herrera",
       "category": "Eau de Parfum",
       "price": 9800,
+      "status": "active",
       "gender": "Women",
       "description": "Sweet and sensual blend of jasmine, cocoa, and tonka bean.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.37667.jpg"
@@ -334,6 +649,7 @@
       "brand": "Mugler",
       "category": "Eau de Parfum",
       "price": 9500,
+      "status": "active",
       "gender": "Women",
       "description": "Mysterious amber woody scent with jasmine sambac and cashmeran.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.9.jpg"
@@ -344,6 +660,7 @@
       "brand": "Byredo",
       "category": "Eau de Parfum",
       "price": 12500,
+      "status": "active",
       "gender": "Unisex",
       "description": "Woody aromatic with bergamot, lemon, juniper, and pine needle.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.4009.jpg"
@@ -354,6 +671,7 @@
       "brand": "Narciso Rodriguez",
       "category": "Eau de Parfum",
       "price": 9400,
+      "status": "active",
       "gender": "Women",
       "description": "Musk, rose, and peach with patchouli and amber.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.1249.jpg"
@@ -364,6 +682,7 @@
       "brand": "Amouage",
       "category": "Eau de Parfum",
       "price": 24500,
+      "status": "active",
       "gender": "Men",
       "description": "Opulent incense, amber, leather, and oregano notes.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.14421.jpg"
@@ -374,6 +693,7 @@
       "brand": "Giorgio Armani",
       "category": "Eau de Parfum",
       "price": 10800,
+      "status": "active",
       "gender": "Men",
       "description": "Aquatic aromatic fragrance with incense and patchouli.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.29916.jpg"
@@ -384,6 +704,7 @@
       "brand": "Valentino",
       "category": "Eau de Parfum",
       "price": 9900,
+      "status": "active",
       "gender": "Women",
       "description": "Vanilla bourbon with jasmine and blackcurrant accord.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.55435.jpg"
@@ -394,6 +715,7 @@
       "brand": "Initio Parfums",
       "category": "Eau de Parfum",
       "price": 28500,
+      "status": "active",
       "gender": "Unisex",
       "description": "Intense oud, lavender, saffron, and patchouli.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.54013.jpg"
@@ -404,6 +726,7 @@
       "brand": "Montblanc",
       "category": "Eau de Parfum",
       "price": 7500,
+      "status": "active",
       "gender": "Men",
       "description": "Woody aromatic scent with bergamot, vetiver, and patchouli.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.52506.jpg"
@@ -414,6 +737,7 @@
       "brand": "Chloé",
       "category": "Eau de Parfum",
       "price": 9200,
+      "status": "active",
       "gender": "Women",
       "description": "Modern chypre with oak moss, freesia, and mirabelle plum.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.45978.jpg"
@@ -424,6 +748,7 @@
       "brand": "Zara",
       "category": "Eau de Toilette",
       "price": 3500,
+      "status": "active",
       "gender": "Men",
       "description": "Sweet gourmand with tobacco, honey, and coconut.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.45910.jpg"
@@ -434,6 +759,7 @@
       "brand": "Maison Margiela",
       "category": "Eau de Toilette",
       "price": 11200,
+      "status": "active",
       "gender": "Men",
       "description": "Tobacco, rum, and vanilla for a warm boozy vibe.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.22519.jpg"
@@ -444,6 +770,7 @@
       "brand": "By Killian",
       "category": "Eau de Parfum",
       "price": 28500,
+      "status": "active",
       "gender": "Women",
       "description": "Sweet caramelized sugar with marshmallow, vanilla, and orange blossom.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.5205.jpg"
@@ -454,6 +781,7 @@
       "brand": "Burberry",
       "category": "Eau de Parfum",
       "price": 8900,
+      "status": "active",
       "gender": "Women",
       "description": "Fruity floral with strawberry, blackberry, and jasmine.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.48499.jpg"
@@ -464,6 +792,7 @@
       "brand": "Roja Parfums",
       "category": "Parfum Cologne",
       "price": 34500,
+      "status": "active",
       "gender": "Men",
       "description": "Citrus aromatic fragrance with grapefruit, vetiver, and ambergris.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.45434.jpg"
@@ -473,6 +802,7 @@
       "name": "Clive Christian No. 1",
       "brand": "Clive Christian",
       "category": "Parfum",
+      "status": "active",
       "price": 55000,
       "gender": "Unisex",
       "description": "Rich floral oriental blend with sandalwood and vanilla.",
@@ -484,6 +814,7 @@
       "brand": "Bond No. 9",
       "category": "Eau de Parfum",
       "price": 26500,
+      "status": "active",
       "gender": "Unisex",
       "description": "Sweet gourmand floral with caramel, jasmine, and coffee.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.45233.jpg"
@@ -494,6 +825,7 @@
       "brand": "Creed",
       "category": "Eau de Parfum",
       "price": 21500,
+      "status": "active",
       "gender": "Men",
       "description": "Fresh green scent with lemon, violet leaf, and sandalwood.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.1588.jpg"
@@ -504,9 +836,19 @@
       "brand": "Serge Lutens",
       "category": "Eau de Parfum",
       "price": 19500,
+      "status": "active",
       "gender": "Unisex",
       "description": "Sweet spicy oriental with honey, tobacco, and amber.",
       "image": "https://fimgs.net/mdimg/perfume/375x500.1211.jpg"
+    },
+    {
+      "id": "1757664276636",
+      "name": "whisky smoke",
+      "brand": "beardo",
+      "category": "perfume",
+      "price": 600,
+      "image": "https://beardo.in/cdn/shop/files/Beardo_WS_EDP_A__Banner_2160x2160_a3afd2ff-c042-4ae1-95f0-9fbaf5dd3123.jpg?v=1755774366&width=1946",
+      "status": "active"
     }
   ]
 }

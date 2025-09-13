@@ -18,7 +18,8 @@ function ProfilePage() {
 
   const handleLogout = () => {
     localStorage.removeItem("user");
-    window.location.reload();
+    
+    navigate("/login");
   };
 
   if (!user) {

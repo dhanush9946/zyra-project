@@ -45,9 +45,7 @@ const Sidebar = () => {
               </Link>
             ))}
           </nav>
-        </div>
-
-        {/* Logout */}
+          {/* Logout */}
         <button
           onClick={handleLogout}
           className="flex items-center gap-3 px-4 py-2 rounded-lg bg-red-600 hover:bg-red-700 transition mt-6"
@@ -55,6 +53,9 @@ const Sidebar = () => {
           <LogOut size={20} />
           <span>Logout</span>
         </button>
+        </div>
+
+        
       </aside>
 
       {/* Main Content */}

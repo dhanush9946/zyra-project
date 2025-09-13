@@ -11,15 +11,21 @@ function ProductList() {
   const navigate = useNavigate();
 
   const handleAddToCart = (product) => {
-    const user = JSON.parse(localStorage.getItem("user"));
+  const user = JSON.parse(localStorage.getItem("user"));
+  
+  if (!user) {
+    toast.error("Please login to add items to your cart!");
+    return;
+  }
 
-    if (!user) {
-      toast.error("Please login to add items to your cart!");
-      return;
-    }
+  if (product.status !== "active") {
+    toast.error("This product is currently unavailable!");
+    return;
+  }
 
-    addToCart(product); // add to context
-  };
+  addToCart(product);
+};
+
 
   const [gender, setGender] = useState("All");
 
@@ -50,16 +56,20 @@ function ProductList() {
               {/* Image */}
               <div
                 onClick={() => navigate(`/product/${product.id}`)}  
-                className="h-72 w-full overflow-hidden">
+                className="h-62 w-full overflow-hidden">
                 <img
                   src={product.image || "https://via.placeholder.com/300x400"}
                   alt={product.name}
                   className="h-full w-full object-cover hover:scale-110 transition-transform duration-700 ease-in-out"
                 />
+
+                
               </div>
 
+              
+
               {/* Info */}
-              <div className="p-5 flex-2 flex flex-col bg-pink-50"
+              <div className="p-3 h-38 flex-2 flex flex-col bg-pink-50"
                >
               <div 
               onClick={() => navigate(`/product/${product.id}`)}
@@ -77,12 +87,25 @@ function ProductList() {
                   <p className="text-2xl font-bold text-black">
                     ₹{product.price}
                   </p>
-                  <button
+                  {/* <button
                     onClick={() => handleAddToCart(product)}
                     className="px-5 py-2.5 bg-black text-white rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg transition-all duration-300"
                   >
                     Add to Cart
+                  </button> */}
+
+                  <button
+                    onClick={() => handleAddToCart(product)}
+                    disabled={product.status !== "active"}
+                    className={`px-5 py-2.5 bg-black text-white rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg transition-all duration-300 ${
+                      product.status === "active"
+                        ? "bg-black text-white hover:bg-pink-600"
+                        : "bg-gray-400 text-gray-600 cursor-not-allowed"
+                    }`}
+                  >
+                    {product.status === "active" ? "Add to Cart" : "Unavailable"}
                   </button>
+
                 </div>
               </div>
             </div>
