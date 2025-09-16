@@ -36,6 +36,7 @@ import ForgotPassword from "./Pages/auth/ForgetPassword";
 import NotFound from "./Pages/nonAuth/NotFound";
 
 import ProtectedRoute from "./ProtectedRoute";
+import UserProtectedRoute from "./UserProtectedRoute";
 
 function AppWrapper() {
   const location = useLocation();
@@ -51,20 +52,20 @@ function AppWrapper() {
 
       <div className="flex-grow">
         <Routes>
-          <Route path="/" element={<Home />} />
+          
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegistrationPage />} />
+          <Route path="/forgetPassword" element={<ForgotPassword />} />
 
            
-
-            <Route path="/products" element={<Products />} />
-    
-            <Route path="/cart" element={<CartPage />} />
-            <Route path="/profile" element={<ProfilePage />} />
-            <Route path="/wishlist" element={<WishlistPage />} />
-            <Route path="/forgetPassword" element={<ForgotPassword />} />
-            <Route path="/checkout" element={<Checkout />} />
-            <Route path="/product/:id" element={<ProductDetails />} />
+            <Route path="/" element={ <UserProtectedRoute> <Home /> </UserProtectedRoute>} />
+            <Route path="/products" element={<UserProtectedRoute> <Products /> </UserProtectedRoute>} />
+            <Route path="/cart" element={<UserProtectedRoute> <CartPage /> </UserProtectedRoute>} />
+            <Route path="/profile" element={<UserProtectedRoute> <ProfilePage /> </UserProtectedRoute>} />
+            <Route path="/wishlist" element={<UserProtectedRoute>  <WishlistPage /> </UserProtectedRoute>} />
+            
+            <Route path="/checkout" element={<UserProtectedRoute>  <Checkout /> </UserProtectedRoute>} />
+            <Route path="/product/:id" element={<UserProtectedRoute>  <ProductDetails /> </UserProtectedRoute>} />
 
             
             <Route path="*" element={<NotFound/>} />

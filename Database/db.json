@@ -7,7 +7,20 @@
       "password": "9946994085",
       "confirmPassword": "9946994085",
       "role": "admin",
-      "cart": [],
+      "cart": [
+        {
+          "id": "2",
+          "name": "Bleu de Chanel",
+          "brand": "Chanel",
+          "category": "Eau de Parfum",
+          "price": 9200,
+          "status": "active",
+          "gender": "Men",
+          "description": "Woody aromatic fragrance with citrus, vetiver, and sandalwood.",
+          "image": "https://i.pinimg.com/736x/52/91/56/52915651850f1a235147b3dd1180eb79.jpg",
+          "qty": 1
+        }
+      ],
       "wishList": [],
       "order": [],
       "wishlist": []
