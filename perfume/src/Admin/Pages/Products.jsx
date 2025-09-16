@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-const Products = () => {
+const Productss = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
@@ -295,4 +295,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Productss;

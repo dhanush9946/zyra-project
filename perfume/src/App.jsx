@@ -26,9 +26,9 @@ import ProductDetails from "./Pages/nonAuth/ProductDetails";
 // Admin
 import Sidebar from "./Admin/Sidebar/Sidebar";
 import Dashboard from "./Admin/Pages/Dashboard";
-import AdminProducts from "./Admin/Pages/Products";
-import AdminOrders from "./admin/pages/Orders";
-import AdminUsers from "./admin/pages/Users";
+import Productss from "./Admin/Pages/Products";
+import Orders from "./Admin/Pages/Orders";
+import Users from "./Admin/Pages/Users";
 
 import LoginPage from "./Pages/auth/LoginPage";
 import RegistrationPage from "./Pages/auth/RegistrationPage";
@@ -80,9 +80,9 @@ function AppWrapper() {
             }
           >
             <Route path="dashboard" element={<Dashboard />} />
-            <Route path="products" element={<AdminProducts />} />
-            <Route path="orders" element={<AdminOrders />} />
-            <Route path="users" element={<AdminUsers />} />
+            <Route path="products" element={<Productss />} />
+            <Route path="orders" element={<Orders />} />
+            <Route path="users" element={<Users />} />
           </Route>
         </Routes>
       </div>
