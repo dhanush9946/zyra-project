@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 
 function RegistrationPage() {
   const navigate = useNavigate();
+  
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -45,7 +46,8 @@ function RegistrationPage() {
     };
     try {
       await axios.post("https://database-1-p36v.onrender.com/users", userData);
-
+      
+      
       setName("");
       setEmail("");
       setPassword("");
@@ -89,6 +91,7 @@ function RegistrationPage() {
             className="w-full px-4 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-400"
             placeholder="Enter your email"
             value={email}
+            
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
