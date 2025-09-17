@@ -50,7 +50,7 @@ export default function Checkout() {
 
       // fetch user from json-server
       const { data: user } = await axios.get(
-        `http://localhost:3000/users/${storedUser.id}`
+        `https://database-1-p36v.onrender.com/users/${storedUser.id}`
       );
 
       const updatedUser = {
@@ -59,7 +59,7 @@ export default function Checkout() {
         cart: [], 
       };
 
-      await axios.put(`http://localhost:3000/users/${user.id}`, updatedUser);
+      await axios.put(`https://database-1-p36v.onrender.com/users/${user.id}`, updatedUser);
 
       // update localStorage
       localStorage.setItem("user", JSON.stringify(updatedUser));

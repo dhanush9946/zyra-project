@@ -24,8 +24,8 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const usersRes = await axios.get("http://localhost:3000/users");
-        const productsRes = await axios.get("http://localhost:3000/perfumes");
+        const usersRes = await axios.get("https://database-1-p36v.onrender.com/users");
+        const productsRes = await axios.get("https://database-1-p36v.onrender.com/perfumes");
 
         setUsers(usersRes.data);
         setProducts(productsRes.data);

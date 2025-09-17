@@ -20,7 +20,7 @@ const Productss = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await axios.get("http://localhost:3000/perfumes");
+        const res = await axios.get("https://database-1-p36v.onrender.com/perfumes");
         setProducts(res.data);
       } catch (err) {
         console.error("Error fetching products:", err);
@@ -42,7 +42,7 @@ const Productss = () => {
   // delete product
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:3000/perfumes/${id}`);
+      await axios.delete(`https://database-1-p36v.onrender.com/perfumes/${id}`);
       setProducts(products.filter((p) => p.id !== id));
       toast.success('product deleted successfully')
     }
@@ -56,7 +56,7 @@ const Productss = () => {
   const toggleStatus = async (product) => {
     try {
       const updated = { ...product, status: product.status === "active" ? "inactive" : "active" };
-      await axios.put(`http://localhost:3000/perfumes/${product.id}`, updated);
+      await axios.put(`https://database-1-p36v.onrender.com/perfumes/${product.id}`, updated);
       setProducts(products.map((p) => (p.id === product.id ? updated : p)));
       toast("Product status changed")
     } catch (err) {
@@ -71,7 +71,7 @@ const Productss = () => {
       return;
     }
     try {
-      const res = await axios.post("http://localhost:3000/perfumes", {
+      const res = await axios.post("https://database-1-p36v.onrender.com/perfumes", {
         ...newProduct,
         id: Date.now().toString(),
         price: Number(newProduct.price),
@@ -87,7 +87,7 @@ const Productss = () => {
   // edit product
   const handleEditProduct = async () => {
     try {
-      await axios.put(`http://localhost:3000/perfumes/${editingProduct.id}`, editingProduct);
+      await axios.put(`https://database-1-p36v.onrender.com/perfumes/${editingProduct.id}`, editingProduct);
       setProducts(products.map((p) => (p.id === editingProduct.id ? editingProduct : p)));
       setEditingProduct(null);
       toast.success("Edited")

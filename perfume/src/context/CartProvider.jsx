@@ -19,7 +19,7 @@ function CartProvider({ children }) {
   //  load cart for this user
   const loadCart = async (id) => {
     try {
-      const res = await axios.get(`http://localhost:3000/users/${id}`);
+      const res = await axios.get(`https://database-1-p36v.onrender.com/users/${id}`);
       setCart(res.data.cart || []);
     } catch (error) {
       console.error('Error loading cart', error);
@@ -45,7 +45,7 @@ function CartProvider({ children }) {
 
     if (userId) {
       try {
-        await axios.patch(`http://localhost:3000/users/${userId}`, {
+        await axios.patch(`https://database-1-p36v.onrender.com/users/${userId}`, {
           cart: updatedCart,
         });
       } catch (error) {
@@ -72,7 +72,7 @@ function CartProvider({ children }) {
 
     if (userId) {
       try {
-        await axios.patch(`http://localhost:3000/users/${userId}`, {
+        await axios.patch(`https://database-1-p36v.onrender.com/users/${userId}`, {
           cart: updatedCart,
         });
       } catch (error) {
@@ -86,7 +86,7 @@ function CartProvider({ children }) {
     setCart([]);
     if (userId) {
       try {
-        await axios.patch(`http://localhost:3000/users/${userId}`, { cart: [] });
+        await axios.patch(`https://database-1-p36v.onrender.com/users/${userId}`, { cart: [] });
       } catch (error) {
         console.error('Error clearing cart', error);
       }
@@ -102,7 +102,7 @@ const increaseQty = async (id) => {
   setCart(updatedCart);
 
   if (userId) {
-    await axios.patch(`http://localhost:3000/users/${userId}`, {
+    await axios.patch(`https://database-1-p36v.onrender.com/users/${userId}`, {
       cart: updatedCart,
     });
   }
@@ -118,7 +118,7 @@ const decreaseQty = async (id) => {
   setCart(updatedCart);
 
   if (userId) {
-    await axios.patch(`http://localhost:3000/users/${userId}`, {
+    await axios.patch(`https://database-1-p36v.onrender.com/users/${userId}`, {
       cart: updatedCart,
     });
   }

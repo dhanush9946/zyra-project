@@ -44,7 +44,7 @@ function RegistrationPage() {
       order: [],
     };
     try {
-      await axios.post("http://localhost:3000/users", userData);
+      await axios.post("https://database-1-p36v.onrender.com/users", userData);
 
       setName("");
       setEmail("");

@@ -15,7 +15,7 @@ export default function ProductDetails() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/perfumes/${id}`)
+      .get(`https://database-1-p36v.onrender.com/perfumes/${id}`)
       .then((res) => {
         setProduct(res.data);
         setLoading(false);

@@ -20,7 +20,7 @@ function WishListProvider({ children }) {
   // load wishlist for this user
   const loadWishlist = async (id) => {
     try {
-      const res = await axios.get(`http://localhost:3000/users/${id}`);
+      const res = await axios.get(`https://database-1-p36v.onrender.com/users/${id}`);
       setWishlist(res.data.wishlist || []);
     } catch (error) {
       console.error("Error loading wishlist", error);
@@ -33,7 +33,7 @@ function WishListProvider({ children }) {
     setWishlist(updatedWishlist);
 
     if (userId) {
-      await axios.patch(`http://localhost:3000/users/${userId}`, {
+      await axios.patch(`https://database-1-p36v.onrender.com/users/${userId}`, {
         wishlist: updatedWishlist,
       });
     }
@@ -46,7 +46,7 @@ function WishListProvider({ children }) {
     setWishlist(updatedWishlist);
 
     if (userId) {
-      await axios.patch(`http://localhost:3000/users/${userId}`, {
+      await axios.patch(`https://database-1-p36v.onrender.com/users/${userId}`, {
         wishlist: updatedWishlist,
       });
     }
@@ -56,7 +56,7 @@ function WishListProvider({ children }) {
   const clearWishlist = async () => {
     setWishlist([]);
     if (userId) {
-      await axios.patch(`http://localhost:3000/users/${userId}`, {
+      await axios.patch(`https://database-1-p36v.onrender.com/users/${userId}`, {
         wishlist: [],
       });
     }

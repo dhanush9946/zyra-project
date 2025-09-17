@@ -8,7 +8,7 @@ const Users = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const res = await axios.get("http://localhost:3000/users");
+        const res = await axios.get("https://database-1-p36v.onrender.com/users");
         setUsers(res.data);
       } catch (err) {
         console.error("Error fetching users:", err);
@@ -21,7 +21,7 @@ const Users = () => {
   const toggleBlockUser = async (id, currentStatus) => {
     try {
       const newStatus = currentStatus === "active" ? "blocked" : "active";
-      await axios.patch(`http://localhost:3000/users/${id}`, {
+      await axios.patch(`https://database-1-p36v.onrender.com/users/${id}`, {
         status: newStatus,
       });
 

@@ -9,7 +9,7 @@ const Orders = () => {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const res = await axios.get("http://localhost:3000/users");
+        const res = await axios.get("https://database-1-p36v.onrender.com/users");
         const allOrders = res.data.flatMap((user) =>
           user.order.map((o) => ({
             ...o,
@@ -29,14 +29,14 @@ const Orders = () => {
   // Handle status update
   const handleStatusChange = async (userId, orderId, newStatus) => {
     try {
-      const userRes = await axios.get(`http://localhost:3000/users/${userId}`);
+      const userRes = await axios.get(`https://database-1-p36v.onrender.com/users/${userId}`);
       const user = userRes.data;
 
       const updatedOrders = user.order.map((o) =>
         o.id === orderId ? { ...o, status: newStatus } : o
       );
 
-      await axios.patch(`http://localhost:3000/users/${userId}`, {
+      await axios.patch(`https://database-1-p36v.onrender.com/users/${userId}`, {
         order: updatedOrders,
       });
 

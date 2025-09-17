@@ -13,7 +13,7 @@ function ForgotPassword() {
   const emailSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.get(`http://localhost:3000/users?email=${email}`);
+      const res = await axios.get(`https://database-1-p36v.onrender.com/users?email=${email}`);
       if (res.data.length > 0) {
         setUserId(res.data[0].id);
         setStep(2);
@@ -33,7 +33,7 @@ function ForgotPassword() {
     }
 
     try {
-      await axios.patch(`http://localhost:3000/users/${userId}`, {
+      await axios.patch(`https://database-1-p36v.onrender.com/users/${userId}`, {
         password: newPassword,
       });
       alert("Password reset successful! Please login with new password.");

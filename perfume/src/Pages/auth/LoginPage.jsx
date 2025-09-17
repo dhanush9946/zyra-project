@@ -11,7 +11,7 @@ function LoginPage() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.get("http://localhost:3000/users");
+      const response = await axios.get("https://database-1-p36v.onrender.com/users");
       const users = response.data;
 
       const user = users.find(
@@ -21,7 +21,7 @@ function LoginPage() {
       if (user) {
         if (user.status === "blocked") {
           setError("Your account has been blocked. Please contact support.");
-          return; // 🚫 stop login
+          return; // stop login
         }
 
         // Save to localStorage

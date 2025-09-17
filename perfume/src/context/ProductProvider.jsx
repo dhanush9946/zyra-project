@@ -13,7 +13,7 @@ const ProductProvider = ({children}) => {
 
   useEffect(()=>{
     axios
-    .get('http://localhost:3000/perfumes')
+    .get('https://database-1-p36v.onrender.com/perfumes')
     .then(response => setProducts(response.data))
     .catch(error => console.error('Error fetching products',error));
   },[])
