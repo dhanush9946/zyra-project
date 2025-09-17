@@ -6,7 +6,7 @@ const UserProtectedRoute = ({ children }) => {
 
   // If not logged in, go to login
   if (!user) {
-    return <Navigate to="/login" />;
+    return <Navigate to="/" />;
   }
 
   // If logged in but role is "admin", block access
