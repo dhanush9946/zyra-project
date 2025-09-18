@@ -58,7 +58,7 @@ function AppWrapper() {
           <Route path="/forgetPassword" element={<ForgotPassword />} />
 
            
-            <Route path="/" element={ <UserProtectedRoute> <Home /> </UserProtectedRoute>} />
+            <Route path="/" element={<Home/>}></Route>
             <Route path="/products" element={<UserProtectedRoute> <Products /> </UserProtectedRoute>} />
             <Route path="/cart" element={<UserProtectedRoute> <CartPage /> </UserProtectedRoute>} />
             <Route path="/profile" element={<UserProtectedRoute> <ProfilePage /> </UserProtectedRoute>} />
